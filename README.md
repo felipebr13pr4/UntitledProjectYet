@@ -11,7 +11,7 @@ Develop branch will be where recent changes will be. And most of development.
 If you clone this project, be aware that your editor game window resolution must correlate to the available resolutions so fonts won't break.
 (1920x1080 (Most Ideal), 1440x810, 960x540, 480x270.) (Prone to change)
 
-Project created at "created_at": "", according to this repo's data from https://api.github.com/repos/felipebr13pr4/UntitledProjectYet
+Project created at "created_at": "2026-09-20T14:44:30Z", according to this repo's data from https://api.github.com/repos/felipebr13pr4/UntitledProjectYet
 
 Link itch: TBA when created
 
