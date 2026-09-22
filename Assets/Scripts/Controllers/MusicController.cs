@@ -38,8 +38,11 @@ public class MusicController : AudioBasics
     {
         if (m_pastScene == "" ||  m_pastScene != SceneManager.GetActiveScene().name)
         {
-            if (SceneManager.GetActiveScene().name == SceneNames.MainMenu) PlayMusic(m_musics[0]);
-            else if (SceneManager.GetActiveScene().name == SceneNames.MainGame) PlayMusic(m_musics[1]);
+            //if (SceneManager.GetActiveScene().name == SceneNames.MainMenu) ;
+            //PlayMusic(m_musics[0]); uncomment when theres actually is music.
+
+            //else if (SceneManager.GetActiveScene().name == SceneNames.MainGame) ;
+            //PlayMusic(m_musics[1]); uncomment when theres actually is music.
         }
         m_pastScene = SceneManager.GetActiveScene().name;
 

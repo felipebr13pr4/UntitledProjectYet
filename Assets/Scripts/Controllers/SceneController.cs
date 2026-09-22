@@ -24,6 +24,7 @@ public class SceneController : MonoBehaviour
 
     private void OnEnable()
     {
+        m_currentScene = SceneManager.GetActiveScene().name;
         SceneManager.sceneLoaded += ResetThings;
     }
 
@@ -42,15 +43,8 @@ public class SceneController : MonoBehaviour
     public void LoadScene(SceneType type)
     {
         SavingController.Instance.SaveAll();
-        string sceneToLoad = type switch
-        {
-            SceneType.Game => SceneNames.MainGame,
-            SceneType.Menu => SceneNames.MainMenu,
-            _ => SceneNames.MainMenu,
-        };
-
-        m_currentScene = sceneToLoad;
-        SceneManager.LoadScene(sceneToLoad);
+        m_currentScene = UpdateScene(type);
+        SceneManager.LoadScene(m_currentScene);
     }
 
     public void ReloadScene()
@@ -64,5 +58,16 @@ public class SceneController : MonoBehaviour
     {
         Time.timeScale = 1;
         GameStateController.Instance.ResetStates();
+    }
+
+    private string UpdateScene(SceneType type)
+    {
+        string scene = type switch
+        {
+            SceneType.Game => SceneNames.MainGame,
+            SceneType.Menu => SceneNames.MainMenu,
+            _ => SceneNames.MainMenu,
+        };
+        return scene;
     }
 }

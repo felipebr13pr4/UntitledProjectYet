@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// By Claude.
+// By Claude. I understand what it does.
 public static class MenuTransitionLock
 {
     private static float s_unlockTime;
