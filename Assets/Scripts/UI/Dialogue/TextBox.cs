@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -10,19 +11,27 @@ public class TextBox : MonoBehaviour
     public TextMeshProUGUI Tmp => m_tmp;
     private int m_index;
     private DialogueData m_data;
+    public static event Action<bool> OnState;
+    private Coroutine m_coroutine;
+    private bool m_isWriting;
 
     private void OnEnable()
     {
+        OnState?.Invoke(false);
         m_interactAction.action.performed += OnInteractPerformed;
     }
 
     private void OnDisable()
     {
+        OnState?.Invoke(true);
         m_interactAction.action.performed -= OnInteractPerformed;
     }
 
+    private void OnInteractPerformed(InputAction.CallbackContext context) => Next();
+
     public void Initialize(DialogueData data)
     {
+        gameObject.SetActive(true);
         m_data = data;
         m_index = 0;
         if (m_index == m_data.Lines.Length)
@@ -31,12 +40,12 @@ public class TextBox : MonoBehaviour
             Hide();
             return;
         }
-        Show(m_data.Lines[m_index]);
+        StartCoroutine(TypeWriter());
     }
 
+    // Good to see the sources.
     public void Show(string line)
-    {
-        gameObject.SetActive(true);
+    { 
         m_tmp.text = line;
     }
 
@@ -48,14 +57,34 @@ public class TextBox : MonoBehaviour
 
     private void Next()
     {
-        if (m_index == m_data.Lines.Length - 1)
+        if (m_index >= m_data.Lines.Length - 1 && !m_isWriting)
         {
             Hide();
             return;
         }
-        m_index++;
-        Show(m_data.Lines[m_index]);
+        if(!m_isWriting) m_index++;
+        if (m_isWriting)
+        {
+            StopCoroutine(m_coroutine);
+            m_isWriting = false;
+            Show(m_data.Lines[m_index]);
+        }
+        else
+        {
+            m_coroutine = StartCoroutine(TypeWriter());
+        }
     }
 
-    private void OnInteractPerformed(InputAction.CallbackContext context) => Next();
+    private IEnumerator TypeWriter()
+    {
+        m_isWriting = true;
+        string tmp = "";
+        foreach (char c in m_data.Lines[m_index])
+        {
+            tmp += c;
+            Show(tmp);
+            yield return null;
+        }
+        m_isWriting = false;
+    }
 }
