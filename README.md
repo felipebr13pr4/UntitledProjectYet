@@ -30,7 +30,7 @@ I learned
 - TBA.
 
 Minor learnt things
-- TBA.
+- MoveTowards vs SmoothDamp.
 
 Learned but not implemented.
 - TBA.

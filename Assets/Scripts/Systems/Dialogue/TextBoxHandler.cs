@@ -15,9 +15,8 @@ public class TextBoxHandler : MonoBehaviour
         DialogueableObject.OnInteract -= Execute;
     }
 
-    private void Execute(DialogueData data)
+    private void Execute(DialogueNode node)
     {
-        m_box.Initialize(data);
+        m_box.Initialize(node);
     }
-
 }

@@ -30,6 +30,6 @@ public class CameraTrigger : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.matrix = transform.localToWorldMatrix;
-        Gizmos.DrawWireCube(transform.position, transform.localScale);
+        Gizmos.DrawWireCube(Vector3.zero, Vector3.one);
     }
 }

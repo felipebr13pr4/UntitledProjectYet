@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374e8350c5d75c945a7f6684c7fc0375, type: 3}
+  m_Name: New Choice Node
+  m_EditorClassIdentifier: Assembly-CSharp::ChoicesNode
+  m_options:
+  - m_name: Choice 1
+    m_node: {fileID: 11400000, guid: f6b7f3ef416732b4a8ccf4e2e218e664, type: 2}
+    m_flag: 0
+  - m_name: Choice 2
+    m_node: {fileID: 11400000, guid: 1e507cc91e4e6474a96a2296ced4c870, type: 2}
+    m_flag: 0

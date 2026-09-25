@@ -6,41 +6,53 @@ using UnityEngine.InputSystem;
 
 public class TextBox : MonoBehaviour
 {
+    [SerializeField] private ChoicesBoxHandler m_choicesBoxHandler;
     [SerializeField] private InputActionReference m_interactAction;
     [SerializeField] private TextMeshProUGUI m_tmp;
     public TextMeshProUGUI Tmp => m_tmp;
     private int m_index;
-    private DialogueData m_data;
+    private DialogueNode m_dialogueNode;
     public static event Action<bool> OnState;
     private Coroutine m_coroutine;
     private bool m_isWriting;
+    private bool m_isChoosing;
 
     private void OnEnable()
     {
         OnState?.Invoke(false);
         m_interactAction.action.performed += OnInteractPerformed;
+        ChoicesBox.OnChoicePicked += Initialize;
     }
 
     private void OnDisable()
     {
         OnState?.Invoke(true);
         m_interactAction.action.performed -= OnInteractPerformed;
+        ChoicesBox.OnChoicePicked -= Initialize;
     }
 
     private void OnInteractPerformed(InputAction.CallbackContext context) => Next();
 
-    public void Initialize(DialogueData data)
+    public void Initialize(Node node)
     {
         gameObject.SetActive(true);
-        m_data = data;
-        m_index = 0;
-        if (m_index == m_data.Lines.Length)
+        if (node is DialogueNode)
         {
-            ErrorLogger.LogError("For some reason a dialogue object has no lines. Make sure to insert the lines or to make this a just interactable if it is not supposed to have dialogue.");
-            Hide();
-            return;
+            m_dialogueNode = node as DialogueNode;
+            m_index = 0;
+            if (m_index == m_dialogueNode.Lines.Length)
+            {
+                ErrorLogger.LogError("For some reason a dialogue object has no lines. Make sure to insert the lines or to make this a just interactable if it is not supposed to have dialogue.");
+                Hide();
+                return;
+            }
+            m_isChoosing = false;
+            m_coroutine = StartCoroutine(TypeWriter());
         }
-        StartCoroutine(TypeWriter());
+        else
+        {
+            Choice(node as ChoicesNode);
+        }
     }
 
     // Good to see the sources.
@@ -57,9 +69,21 @@ public class TextBox : MonoBehaviour
 
     private void Next()
     {
-        if (m_index >= m_data.Lines.Length - 1 && !m_isWriting)
+        if (m_isChoosing) return;
+        if (m_index >= m_dialogueNode.Lines.Length - 1 && !m_isWriting)
         {
-            Hide();
+            if (m_dialogueNode.Next is ChoicesNode)
+            {
+                Choice(m_dialogueNode.Next as ChoicesNode);
+            }
+            else if (m_dialogueNode.Next != null)
+            {
+                Initialize(m_dialogueNode.Next as DialogueNode);
+            }
+            else
+            {
+                Hide();
+            }
             return;
         }
         if(!m_isWriting) m_index++;
@@ -67,7 +91,7 @@ public class TextBox : MonoBehaviour
         {
             StopCoroutine(m_coroutine);
             m_isWriting = false;
-            Show(m_data.Lines[m_index]);
+            Show(m_dialogueNode.Lines[m_index].Text);
         }
         else
         {
@@ -79,12 +103,18 @@ public class TextBox : MonoBehaviour
     {
         m_isWriting = true;
         string tmp = "";
-        foreach (char c in m_data.Lines[m_index])
+        foreach (char c in m_dialogueNode.Lines[m_index].Text)
         {
             tmp += c;
             Show(tmp);
             yield return null;
         }
         m_isWriting = false;
+    }
+
+    private void Choice(ChoicesNode choice)
+    {
+        m_choicesBoxHandler.Initialize(choice);
+        m_isChoosing = true;
     }
 }
