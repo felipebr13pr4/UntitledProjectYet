@@ -12,21 +12,22 @@ public class TextBox : MonoBehaviour
     public TextMeshProUGUI Tmp => m_tmp;
     private int m_index;
     private DialogueNode m_dialogueNode;
-    public static event Action<bool> OnState;
+    public static event Action<bool> OnActivation;
     private Coroutine m_coroutine;
     private bool m_isWriting;
     private bool m_isChoosing;
+    public static event Action<CutsceneNode> OnCutsceneNode;
 
     private void OnEnable()
     {
-        OnState?.Invoke(false);
+        OnActivation?.Invoke(true);
         m_interactAction.action.performed += OnInteractPerformed;
         ChoicesBox.OnChoicePicked += Initialize;
     }
 
     private void OnDisable()
     {
-        OnState?.Invoke(true);
+        OnActivation?.Invoke(false);
         m_interactAction.action.performed -= OnInteractPerformed;
         ChoicesBox.OnChoicePicked -= Initialize;
     }
@@ -49,9 +50,14 @@ public class TextBox : MonoBehaviour
             m_isChoosing = false;
             m_coroutine = StartCoroutine(TypeWriter());
         }
-        else
+        else if (node is ChoicesNode)
         {
             Choice(node as ChoicesNode);
+        }
+        else if (node is CutsceneNode)
+        {
+            OnCutsceneNode?.Invoke(node as CutsceneNode);
+            Hide();
         }
     }
 
@@ -63,6 +69,7 @@ public class TextBox : MonoBehaviour
 
     public void Hide()
     {
+        m_isChoosing = false;
         m_tmp.text = "";
         gameObject.SetActive(false);
     }
@@ -75,6 +82,12 @@ public class TextBox : MonoBehaviour
             if (m_dialogueNode.Next is ChoicesNode)
             {
                 Choice(m_dialogueNode.Next as ChoicesNode);
+            }
+            else if (m_dialogueNode.Next is CutsceneNode)
+            {
+                Hide();
+                OnCutsceneNode?.Invoke(m_dialogueNode.Next as CutsceneNode);
+                //StartCoroutine(SpecialFunctions.DelayMethod(Hide));
             }
             else if (m_dialogueNode.Next != null)
             {

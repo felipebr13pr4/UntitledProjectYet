@@ -8,14 +8,16 @@ public class TextBoxHandler : MonoBehaviour
     private void OnEnable()
     {
         DialogueableObject.OnInteract += Execute;
+        CutsceneMover.OnNextNode += Execute;
     }
 
     private void OnDisable()
     {
         DialogueableObject.OnInteract -= Execute;
+        CutsceneMover.OnNextNode -= Execute;
     }
 
-    private void Execute(DialogueNode node)
+    private void Execute(Node node)
     {
         m_box.Initialize(node);
     }

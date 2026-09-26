@@ -5,7 +5,9 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private InputActionReference m_moveAction;
     [SerializeField] private Rigidbody2D m_rb2d;
+    public Rigidbody2D Rb2d => m_rb2d;
     [SerializeField] private float m_speed = 4;
+    public float Speed => m_speed;
     private Vector2 m_moveDir;
     private Vector2 m_lastDir = Vector2.up;
     public Vector2 LastDir => m_lastDir;

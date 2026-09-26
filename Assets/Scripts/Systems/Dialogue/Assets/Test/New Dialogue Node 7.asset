@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e430663076cbe0f4d9294dd429f5e57b, type: 3}
-  m_Name: New Dialogue Node 6
+  m_Name: New Dialogue Node 7
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  m_next: {fileID: 11400000, guid: 17037016cf0f32047a46dc6b500f488f, type: 2}
+  m_next: {fileID: 0}
   m_lines:
-  - m_text: hello guys
-  - m_text: cutscene time!
+  - m_text: 
+  - m_text: ok it cutscened
