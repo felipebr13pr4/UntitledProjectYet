@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -10,6 +11,7 @@ public class TextBox : MonoBehaviour
     private bool m_isWriting;
     public bool IsWriting => m_isWriting;
     private string m_text;
+    public static event Action<LineExpression> OnExpression;
 
     // Good to see the sources.
     public void Show(string line)
@@ -19,6 +21,7 @@ public class TextBox : MonoBehaviour
 
     public void Hide()
     {
+        OnExpression?.Invoke(new LineExpression());
         m_tmp.text = "";
         gameObject.SetActive(false);
     }
@@ -30,8 +33,9 @@ public class TextBox : MonoBehaviour
         Show(m_text);
     }
 
-    public void StartWriting(string text)
+    public void StartWriting(string text, LineExpression expression)
     {
+        OnExpression?.Invoke(expression);
         m_text = text;
         m_coroutine = StartCoroutine(TypeWriter());
     }

@@ -46,7 +46,7 @@ public class DialogueRouter : MonoBehaviour
                 return;
             }
             m_isChoosing = false;
-            m_textBox.StartWriting(DialogueText);
+            m_textBox.StartWriting(DialogueText, m_dialogueNode.Lines[m_index].Expression);
         }
         else if (node is ChoicesNode)
         {
@@ -90,7 +90,7 @@ public class DialogueRouter : MonoBehaviour
         }
         else
         {
-            m_textBox.StartWriting(DialogueText);
+            m_textBox.StartWriting(DialogueText, m_dialogueNode.Lines[m_index].Expression);
         }
     }
 
