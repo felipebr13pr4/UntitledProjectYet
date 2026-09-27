@@ -23,9 +23,27 @@ public class ChoicesBoxHandler : MonoBehaviour
         }
         for (int i = 0; i < node.Options.Length; i++)
         {
-            m_choicesBox[i].gameObject.SetActive(true);
+            bool shouldActivate = true;
+            string name = node.Options[i].Name;
+            m_choicesBox[i].Button.interactable = true;
+
+            if (node.Options[i].FlagRequired != EventFlags.None)
+            {
+                if (!EventFlagsHolder.Get(node.Options[i].FlagRequired))
+                    if (!node.Options[i].ShowOnUnmet)
+                    {
+                        shouldActivate = false; 
+                    }
+                    else
+                    {
+                        name = "???";
+                        m_choicesBox[i].Button.interactable = false;
+                    }
+            }
+            m_choicesBox[i].Flag = node.Options[i].Flag;
+            m_choicesBox[i].gameObject.SetActive(shouldActivate);
             m_choicesBox[i].Node = node.Options[i].Node;
-            m_choicesBox[i].Text = node.Options[i].Name;
+            m_choicesBox[i].Text = name;
         }
     }
 

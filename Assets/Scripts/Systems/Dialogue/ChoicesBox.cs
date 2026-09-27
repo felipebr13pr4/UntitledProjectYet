@@ -6,9 +6,12 @@ using UnityEngine.UI;
 public class ChoicesBox : MonoBehaviour
 {
     [SerializeField] private Button m_button;
+    public Button Button => m_button;
     [SerializeField] private TextMeshProUGUI m_text;
     private Node m_node;
     public Node Node { set => m_node = value; }
+    private EventFlags m_flag;
+    public EventFlags Flag { set => m_flag = value; }
     public string Text { set { m_text.text = value; } }
     public static event Action<Node> OnChoicePicked;
 
@@ -18,6 +21,8 @@ public class ChoicesBox : MonoBehaviour
 
     private void ButtonClicked()
     {
+        if (m_flag != EventFlags.None)
+            EventFlagsHolder.Set(m_flag, true);
         OnChoicePicked?.Invoke(m_node);
     }
 }

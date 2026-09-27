@@ -26,11 +26,13 @@ public class SceneController : MonoBehaviour
     {
         m_currentScene = SceneManager.GetActiveScene().name;
         SceneManager.sceneLoaded += ResetThings;
+        DeathHandler.OnDeathLate += ReloadScene;
     }
 
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= ResetThings;
+        DeathHandler.OnDeathLate -= ReloadScene;
     }
 
     private void Update()

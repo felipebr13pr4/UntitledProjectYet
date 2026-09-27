@@ -11,7 +11,7 @@ public class ChoicesNode : Node
         foreach (Option option in m_options)
         {
             if (option.Node == null)
-                ErrorLogger.LogError($"Null next node detected in a reference. It is option: '{(option.Name == "" ? "No option named detected" : option.Name)}', inside '{name}'");
+                ErrorLogger.LogError($"Null next node detected in a reference. Its option: '{(option.Name == "" ? "No option named detected" : option.Name)}', inside '{name}'");
         }
     }
 

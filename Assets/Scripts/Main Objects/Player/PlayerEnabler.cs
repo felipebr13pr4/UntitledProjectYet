@@ -12,12 +12,14 @@ public class PlayerEnabler : MonoBehaviour
     {
         DialogueRouter.OnActivation += Dialogue;
         CutsceneMover.OnCutscene += Cutscene;
+        DeathHandler.OnDeath += Death;
     }
 
     private void OnDisable()
     {
         DialogueRouter.OnActivation -= Dialogue;
         CutsceneMover.OnCutscene -= Cutscene;
+        DeathHandler.OnDeath -= Death;
     }
 
     private void Cutscene(bool state)
@@ -35,6 +37,7 @@ public class PlayerEnabler : MonoBehaviour
     }
 
     private void Inverter(bool state) => HandleStates(!state);
+    private void Death() => HandleStates(false);
 
     private void HandleStates(bool state)
     {

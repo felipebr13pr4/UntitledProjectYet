@@ -10,4 +10,8 @@ public struct Option
     public readonly Node Node => m_node;
     [SerializeField] private EventFlags m_flag;
     public readonly EventFlags Flag => m_flag;
+    [SerializeField] private EventFlags m_flagRequired;
+    public readonly EventFlags FlagRequired => m_flagRequired;
+    [SerializeField] private bool m_showOnUnmet;
+    public readonly bool ShowOnUnmet => m_showOnUnmet;
 }

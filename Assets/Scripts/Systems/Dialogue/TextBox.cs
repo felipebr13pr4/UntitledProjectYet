@@ -5,6 +5,7 @@ using UnityEngine;
 public class TextBox : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI m_tmp;
+    [SerializeField] private float m_typingSpeed = 0.03f;
     private Coroutine m_coroutine;
     private bool m_isWriting;
     public bool IsWriting => m_isWriting;
@@ -39,11 +40,17 @@ public class TextBox : MonoBehaviour
     {
         m_isWriting = true;
         string tmp = "";
+        float elapsed = 0f;
         foreach (char c in m_text)
         {
+            while (elapsed < m_typingSpeed)
+            {
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
             tmp += c;
             Show(tmp);
-            yield return null;
+            elapsed = 0f;
         }
         m_isWriting = false;
     }

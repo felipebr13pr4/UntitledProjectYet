@@ -19,17 +19,18 @@ public class OverlayWindow : MonoBehaviour
 
     private void OnEnable()
     {
-        // Put things here.
+        DeathHandler.OnDeath += PlayerDied;
     }
 
     private void OnDisable()
     {
-        // Put things here.
+        DeathHandler.OnDeath -= PlayerDied;
     }
 
     private void Update()
     {
-        if (Keyboard.current.escapeKey.wasPressedThisFrame && !MenuTransitionLock.IsLocked)
+        if (Keyboard.current.escapeKey.wasPressedThisFrame &&
+            !MenuTransitionLock.IsLocked && !m_isPlayerDead)
             OpenOverlayWindowWrap();
     }
 
@@ -61,8 +62,7 @@ public class OverlayWindow : MonoBehaviour
                 obj.SetActive(true);
                 if (obj.activeSelf) { obj.SetActive(false); obj.SetActive(true); }
             }
-            else if (!m_isPlayerDead &&
-                    !SceneController.Instance.IsInMenu)
+            else if (!SceneController.Instance.IsInMenu)
             {
                     obj.GetComponent<FadingMenu>().Disable();
             }
@@ -74,11 +74,7 @@ public class OverlayWindow : MonoBehaviour
     private string HandleTitle()
     {
         // Put here ifs and else ifs when there are other things that can make this open.
-        if (m_isPlayerDead)
-        {
-            return "You Died.";
-        }
-        else if (Time.timeScale == 0)
+        if (Time.timeScale == 0)
         {
             return "Game Paused.";
         }

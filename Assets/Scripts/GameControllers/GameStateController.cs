@@ -6,8 +6,6 @@ public class GameStateController : MonoBehaviour
 {
     private bool m_canUnpause;
     private bool m_isGamePaused;
-    public bool IsGamePaused => m_isGamePaused;
-    public bool IsInSubMenu => m_canUnpause;
 
     public static event Action OnGamePaused;
     public static event Action<bool> OnGamePausedWithIfLocked;
@@ -31,6 +29,8 @@ public class GameStateController : MonoBehaviour
         OverlayWindow.OnOpenWindow += CheckIfCanPause;
         OverlayWindow.OnCloseWindow += CheckIfCanPause;
         // Put things when there is something to listen to prevent it from pausing.
+        DeathHandler.OnDeath += Pause;
+        DeathHandler.OnDeath += DisablePausing;
 
     }
 
@@ -39,35 +39,16 @@ public class GameStateController : MonoBehaviour
         OverlayWindow.OnOpenWindow -= CheckIfCanPause;
         OverlayWindow.OnCloseWindow -= CheckIfCanPause;
         // Put things when there is something to listen to prevent it from pausing.
+        DeathHandler.OnDeath -= Pause;
+        DeathHandler.OnDeath -= DisablePausing;
     }
 
-    public void UnblockThenCheckPause()
-    {
-        m_canUnpause = true;
-        CheckIfCanPause();
-    }
-
-    public void BlockThenTPause()
-    {
-        m_canUnpause = false;
-        TogglePause();
-    }
-
+    private void Pause() => TogglePause(true);
+    private void DisablePausing() => m_canUnpause = false;
 
     public void CheckIfCanPause()
     {
-        if (!m_canUnpause ||
-            SceneController.Instance.IsInMenu) return;
-        TogglePause();
-    }
-
-    private void TogglePause()
-    {
-        GetComponent<AudioHolder>().ActivateSound(0);
-        Time.timeScale = Time.timeScale > 0 ? 0 : 1;
-        m_isGamePaused = Time.timeScale == 0;
-        OnGamePaused?.Invoke();
-        OnGamePausedWithIfLocked?.Invoke(m_canUnpause);
+        CheckIfCanPause(Time.timeScale > 0);
     }
 
     public void CheckIfCanPause(bool pause)
