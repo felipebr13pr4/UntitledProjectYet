@@ -1,9 +1,8 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class TextBoxHandler : MonoBehaviour
 {
-    [SerializeField] private TextBox m_box;
+    [SerializeField] private DialogueRouter m_router;
 
     private void OnEnable()
     {
@@ -19,6 +18,6 @@ public class TextBoxHandler : MonoBehaviour
 
     private void Execute(Node node)
     {
-        m_box.Initialize(node);
+        m_router.Initialize(node);
     }
 }

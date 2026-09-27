@@ -1,6 +1,4 @@
-using NUnit.Framework;
 using System;
-using System.Linq;
 using UnityEngine;
 
 public class EventsDecider : MonoBehaviour
@@ -9,7 +7,7 @@ public class EventsDecider : MonoBehaviour
 
     private void Start()
     {
-        EventFlagsHolder.Configure(m_flags.ToArray());
+        EventFlagsHolder.Configure(m_flags);
         EventFlagsHolder.Reset();
     }
 

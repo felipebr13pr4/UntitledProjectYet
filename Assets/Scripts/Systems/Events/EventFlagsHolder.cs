@@ -17,7 +17,8 @@ public static class EventFlagsHolder
 
     public static void Configure(FlagPersistence[] flags)
     {
-        foreach(FlagPersistence flag in flags)
+        s_flagsSet.Clear();
+        foreach (FlagPersistence flag in flags)
         {
             if (flag.IsPermanent)
                 s_flagsSet.Add(flag.Flag);

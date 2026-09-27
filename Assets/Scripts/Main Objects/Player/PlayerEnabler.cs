@@ -10,13 +10,13 @@ public class PlayerEnabler : MonoBehaviour
 
     private void OnEnable()
     {
-        TextBox.OnActivation += Dialogue;
+        DialogueRouter.OnActivation += Dialogue;
         CutsceneMover.OnCutscene += Cutscene;
     }
 
     private void OnDisable()
     {
-        TextBox.OnActivation -= Dialogue;
+        DialogueRouter.OnActivation -= Dialogue;
         CutsceneMover.OnCutscene -= Cutscene;
     }
 
