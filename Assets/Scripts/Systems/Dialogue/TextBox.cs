@@ -87,7 +87,6 @@ public class TextBox : MonoBehaviour
             {
                 Hide();
                 OnCutsceneNode?.Invoke(m_dialogueNode.Next as CutsceneNode);
-                //StartCoroutine(SpecialFunctions.DelayMethod(Hide));
             }
             else if (m_dialogueNode.Next != null)
             {

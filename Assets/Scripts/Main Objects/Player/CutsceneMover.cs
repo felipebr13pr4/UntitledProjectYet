@@ -21,11 +21,13 @@ public class CutsceneMover : MonoBehaviour
 
     private void OnEnable()
     {
+        CutsceneTrigger.OnTriggerEnter += ExecuteCutsceneWrap;
         TextBox.OnCutsceneNode += ExecuteCutsceneWrap;
     }
 
     private void OnDisable()
     {
+        CutsceneTrigger.OnTriggerEnter -= ExecuteCutsceneWrap;
         TextBox.OnCutsceneNode -= ExecuteCutsceneWrap;
     }
 

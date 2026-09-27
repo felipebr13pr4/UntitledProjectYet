@@ -27,7 +27,7 @@ Re-appearances from last project
 - TBA.
 
 I learned
-- TBA.
+- Scriptable Objects (I struggled a bit at first but then got then and yeah they are cool).
 
 Minor learnt things
 - MoveTowards vs SmoothDamp.
