@@ -10,6 +10,7 @@ public class OverlayWindow : MonoBehaviour
     [SerializeField] private GameObject[] m_mainComps;
     [SerializeField] private FadingMenu[] m_otherWindows;
     [SerializeField] private SubMenuHandler m_submenuHandler;
+    [SerializeField] private AudioHolder m_audio;
     private bool m_isPlayerDead;
     public static event Action<bool> OnOpen;
     public static event Action<bool> OnOpenWindow;
@@ -46,7 +47,10 @@ public class OverlayWindow : MonoBehaviour
         bool shouldActivate = !m_mainComps[0].activeInHierarchy;
         yield return null;
         if (m_submenuHandler.ActiveMenus.Count == 0 && shouldActivate)
+        {
+            m_audio.PlayAudio(m_audio.AudioData[0]);
             OnOpenWindow?.Invoke(true);
+        }
         else if (m_submenuHandler.ActiveMenus.Count == 0 && !shouldActivate)
             OnCloseWindow?.Invoke(false);
         EnableOrDisable(shouldActivate);

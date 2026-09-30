@@ -1,24 +1,26 @@
-using System;
 using UnityEngine;
 
-public class AudioHolder : MonoBehaviour
+public class AudioHolder : AudioPlayer
 {
     [SerializeField] private AudioData[] m_audioData = new AudioData[4];
+    public AudioData[] AudioData { get => m_audioData; set => m_audioData = value; }
+    public override float AudioVolume { get => AudioController.Instance.AudioVolume; }
 
     public void ActivateSound(params int[] indices)
     {
         for (int i = 0; i < indices.Length; i++)
-            AudioController.Instance.PlayAudio(m_audioData[indices[i]]);
+            PlayAudio(m_audioData[indices[i]]);
     }
 
     public void ActivateStoppableSound(params int[] indices)
     {
         for (int i = 0; i < indices.Length; i++)
-            AudioController.Instance.PlayStoppableAudio(m_audioData[indices[i]]);
+            PlayStoppableAudio(m_audioData[indices[i]]);
     }
 
-    private void OnValidate()
+    protected override void OnValidate()
     {
+        base.OnValidate();
         for (int i = 0; i < m_audioData.Length; i++) 
         {
             float pitch;

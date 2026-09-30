@@ -43,5 +43,6 @@ public class FadeUIStart : MonoBehaviour
         }
         color.a = 0f;
         m_image.color = color;
+        m_image.enabled = false;
     }
 }

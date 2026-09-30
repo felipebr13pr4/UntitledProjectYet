@@ -1,8 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-[RequireComponent(typeof(AudioSource))]
-public class MusicController : AudioBasics
+public class MusicController : AudioPlayer
 {
     [SerializeField] private AudioClip[] m_musics;
     private string m_pastScene;

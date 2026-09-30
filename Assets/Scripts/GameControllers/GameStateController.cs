@@ -1,7 +1,6 @@
 using System;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioHolder))]
 public class GameStateController : MonoBehaviour
 {
     private bool m_canUnpause;

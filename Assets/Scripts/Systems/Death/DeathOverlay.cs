@@ -24,6 +24,7 @@ public class DeathOverlay : MonoBehaviour
     public void Play()
     {
         m_image.color = Color.white;
+        m_image.enabled = true;
         m_video.Play();
     }
 
