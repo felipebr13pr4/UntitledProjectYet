@@ -116,12 +116,12 @@ TextureImporter:
       name: placeholder fullbody sad_0
       rect:
         serializedVersion: 2
-        x: 256
-        y: 18
-        width: 984
-        height: 1400
+        x: 0
+        y: 0
+        width: 1500
+        height: 1500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 81b11224da78d9c4db267b0bebc73797
     internalID: 0
     vertices: []
     indices: 

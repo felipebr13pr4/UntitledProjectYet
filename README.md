@@ -32,6 +32,7 @@ I learned
 - How to make a array lookup more secure by searching by type and not index.
 - Custom Editor and Custom Window.
 - OnGui vs CreateGui.
+- Dialogue system design.
 
 Minor learnt things
 - MoveTowards vs SmoothDamp.

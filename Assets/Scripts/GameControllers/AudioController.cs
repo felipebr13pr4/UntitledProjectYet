@@ -3,7 +3,6 @@ using UnityEngine;
 public class AudioController : AudioBasics
 {
     public static AudioController Instance { get; private set; }
-
     private void Awake()
     {
         if (Instance != null && Instance != this)

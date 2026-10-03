@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,8 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private PlayerMovement m_movement;
     [SerializeField] private float m_reach = 1.25f;
     [SerializeField] private bool m_checkDebug = false;
+    [SerializeField] private DialogueNode m_checkDialogue;
+    public static event Action<Node> OnCheckEvent;
 
     private void OnEnable()
     {
@@ -49,9 +52,9 @@ public class PlayerInteraction : MonoBehaviour
         if (hit.Length != 0)
         {
             rayColor = Color.green;
-            ErrorLogger.DebugLog(hit.Length);
-            // Remember to put here a proper more correct way that shows the player
-            // how many objects are in there.
+            DialogueNode tmpCopy = Instantiate(m_checkDialogue);
+            tmpCopy.Lines[0].Text += hit.Length.ToString() + '.';
+            OnCheckEvent?.Invoke(tmpCopy);
         }
         Debug.DrawRay(transform.position, m_movement.LastDir.normalized * m_reach, rayColor, 1);
     }

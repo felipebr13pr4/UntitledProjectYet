@@ -198,6 +198,7 @@ GameObject:
   - component: {fileID: 1703869628618336464}
   - component: {fileID: 6634221769320977606}
   - component: {fileID: 3049261040964594580}
+  - component: {fileID: 84149994620336196}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -310,6 +311,7 @@ MonoBehaviour:
   m_moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_rb2d: {fileID: 4756267054054178396}
   m_speed: 4
+  m_defaultTime: 0.04
 --- !u!114 &6634221769320977606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +331,7 @@ MonoBehaviour:
     m_Bits: 128
   m_movement: {fileID: 1703869628618336464}
   m_reach: 1.25
+  m_checkDebug: 0
 --- !u!114 &3049261040964594580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,3 +346,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerEnabler
   m_movement: {fileID: 1703869628618336464}
   m_interaction: {fileID: 6634221769320977606}
+--- !u!114 &84149994620336196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7170354464915963390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef213e304083f1247b4d248f1d02feb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneMover
+  m_playerMovement: {fileID: 1703869628618336464}
+  m_testNode: {fileID: 11400000, guid: 2c310a734dedf9c439116b6e151fb09a, type: 2}

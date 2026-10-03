@@ -97,9 +97,6 @@ public class DialogueRouter : MonoBehaviour
         }
         if (!m_textBox.IsWriting)
         {
-            ErrorLogger.DebugLog(m_dialogueNode.Lines[m_index].Unskippable &&
-                m_dialogueNode.Lines[m_index].AutoSkip);
-
             if (m_dialogueNode.Lines[m_index].Unskippable &&
                 m_dialogueNode.Lines[m_index].AutoSkip)
                 return;

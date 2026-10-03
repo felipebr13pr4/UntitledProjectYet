@@ -9,6 +9,7 @@ public class DialogueEditorWindow : EditorWindow
     private AudioClip m_defaultVoice;
     private ExpressionsHolder m_holder;
     private DialogueNode m_node = null;
+    private Node m_next = null;
     private List<bool> m_showOptions;
     private List<bool> m_showExpression;
     private List<bool> m_showVoices;
@@ -58,7 +59,10 @@ public class DialogueEditorWindow : EditorWindow
             m_holder = (ExpressionsHolder)CreateInstance("ExpressionsHolder");
             EditorJsonUtility.FromJsonOverwrite(json, m_holder);
         }
+        
         m_defaultVoice = Resources.Load<AudioClip>("DefaultVoice");
+
+        UpdateNext();
     }
 
     private void OnSelectionChange()
@@ -68,6 +72,7 @@ public class DialogueEditorWindow : EditorWindow
             m_node = node;
             ClearBools();
             InitializeBools(m_node.Lines.Length);
+            UpdateNext();
             Repaint();
         }
     }
@@ -89,10 +94,12 @@ public class DialogueEditorWindow : EditorWindow
             }
             else
             {
-                string json = EditorJsonUtility.ToJson(m_holder);
-                EditorPrefs.SetString(HolderStringKey, json);
+                string holderJson = EditorJsonUtility.ToJson(m_holder);
+                EditorPrefs.SetString(HolderStringKey, holderJson);
             }
-            
+
+            m_next = (Node)EditorGUILayout.ObjectField(
+        "Next Node", m_next, typeof(Node), false);
 
             while (m_showOptions.Count < m_node.Lines.Length) EditBools(true);
             while (m_showOptions.Count > m_node.Lines.Length) EditBools(false, m_showOptions.Count - 1);
@@ -155,14 +162,14 @@ public class DialogueEditorWindow : EditorWindow
                 if (m_node.Lines[i].Expression.AssignedExpression != Expressions.None)
                 {
                     Texture2D portraitTexture = m_holder.GetExpressionSprite(m_node.Lines[i].Expression.AssignedExpression).Value.Portrait.texture;
-                    GUILayout.Label(portraitTexture, GUILayout.MaxWidth(m_node.Lines[i].Expression.HasFullBody ? 140 /2 : 140), GUILayout.MaxHeight(140));
+                    GUILayout.Label(portraitTexture, GUILayout.MaxWidth(m_node.Lines[i].Expression.HasFullBody ? 100 : 140), GUILayout.MaxHeight(140));
                     if (m_node.Lines[i].Expression.HasFullBody)
                     {
                         ExpressionSprites? sprites = m_holder.GetExpressionSprite(m_node.Lines[i].Expression.AssignedExpression);
                         if (sprites != null)
                         {
                             Texture2D fullbodyTexture = sprites.Value.FullBody.texture;
-                            GUILayout.Label(fullbodyTexture, GUILayout.MaxWidth(140 / 2), GUILayout.MaxHeight(140));
+                            GUILayout.Label(fullbodyTexture, GUILayout.MaxWidth(40), GUILayout.MaxHeight(140));
                         }
                     }
                 }
@@ -492,5 +499,11 @@ public class DialogueEditorWindow : EditorWindow
     {
         for (int i = 0; i < m_node.Lines.Length; i++)
             m_node.Lines[i].Expression = new(m_node.Lines[i].Expression.AssignedExpression, hasFullBody);
+    }
+
+    private void UpdateNext()
+    {
+        m_next = (Node)CreateInstance("Node");
+        m_next = m_node != null ? m_node.Next : null;
     }
 }
