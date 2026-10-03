@@ -30,6 +30,8 @@ I learned
 - Scriptable Objects (I struggled a bit at first but then got then and yeah they are cool).
 - A little more about structs.
 - How to make a array lookup more secure by searching by type and not index.
+- Custom Editor and Custom Window.
+- OnGui vs CreateGui.
 
 Minor learnt things
 - MoveTowards vs SmoothDamp.

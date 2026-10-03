@@ -6,7 +6,6 @@ public static class TagFunctions
 {
     public static TextData Scan(string rawText)
     {
-        TextData textData = new();
         List<TagCue> cues = new();
         bool inTag = false;
         string cleanText = "";
@@ -39,14 +38,10 @@ public static class TagFunctions
         }
 
         if (inTag)
-        {
             ErrorLogger.LogWarning($"Uncompleted tag detected. Make sure all tags are closed properly.\n" +
-                $"Infriging whole text: {cleanText} + {inTag}");
-        }
+                $"Infriging whole text: {cleanText}\n Is in tag: {inTag}");
 
-        textData = new(cleanText, cues.ToArray());
-
-        return textData;
+        return new(cleanText, cues.ToArray());
     }
 
     private static TagCue? HandleTag(string tag, int pos)
@@ -58,6 +53,10 @@ public static class TagFunctions
         else if (tag.StartsWith(Sound))
         {
             return new TagCue(TagType.Sound, GetIntNumber(tag), pos);
+        }
+        else if (tag.StartsWith("color") || tag.StartsWith("/color"))
+        {
+            return null;
         }
         ErrorLogger.LogError("A tag cue was received to Handle Tag but it doesn't match any of the tag constants. Make sure everything is updated correctly or that the tag was correctly typed.");
         return null;

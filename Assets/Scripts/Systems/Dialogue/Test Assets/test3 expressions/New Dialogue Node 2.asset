@@ -18,3 +18,15 @@ MonoBehaviour:
     m_expression:
       m_assignedExpression: 2
       m_hasFullBody: 0
+    m_voice:
+      m_name: 
+      m_clip: {fileID: 8300000, guid: cf4e6e62e72d1fe4e96f6123b7ac88fa, type: 3}
+      m_pitch: 1
+      m_isPitchRandom: 1
+      m_min: 1
+      m_max: 1.5
+    m_sounds: []
+    m_autoSkip: 0
+    m_delay: 0
+    m_unskippable: 0
+  m_defaultVoice: 0

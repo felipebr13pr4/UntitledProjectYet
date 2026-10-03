@@ -6,6 +6,8 @@ public class FadeUIStart : MonoBehaviour
 {
     [SerializeField] private Image m_image;
     [SerializeField] private bool m_hideInEditor;
+    [SerializeField] private bool m_smootherTransition;
+    [SerializeField] private float m_time = 2;
 
     void Start()
     {
@@ -32,7 +34,11 @@ public class FadeUIStart : MonoBehaviour
     {
         Color color = m_image.color;
         float elapsed = 0f;
-        float duration = 2f;
+        float duration = m_time;
+        if (m_smootherTransition)
+            duration *= 2;
+
+        yield return new WaitForSeconds(duration/20);
 
         while (elapsed < duration)
         {
@@ -40,6 +46,8 @@ public class FadeUIStart : MonoBehaviour
             color.a = 1f - (elapsed / duration);
             m_image.color = color;
             yield return null;
+            if (duration > m_time && m_smootherTransition)
+                duration -= m_time / 10;
         }
         color.a = 0f;
         m_image.color = color;

@@ -10,7 +10,7 @@ public class TextBox : MonoBehaviour
     [SerializeField] private TagHandler m_tagHandler;
     [SerializeField] private float m_typingSpeed = DefaultTypingSpeed;
     public float TypingSpeed { set => m_typingSpeed = value; }
-    private const float DefaultTypingSpeed = 0.03f;
+    public const float DefaultTypingSpeed = 0.03f;
     private Coroutine m_coroutine;
     private bool m_isWriting;
     public bool IsWriting => m_isWriting;

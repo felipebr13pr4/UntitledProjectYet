@@ -23,10 +23,11 @@ public class AudioHolder : AudioPlayer
         base.OnValidate();
         for (int i = 0; i < m_audioData.Length; i++) 
         {
+            if (m_audioData[i].Clip == null) continue;
             float pitch;
             float min;
             float max;
-            AudioData defaultData = new(m_audioData[i].Clip);
+            AudioData defaultData = new("None");
             if (!m_audioData[i].IsPitchRandom)
             {
                 pitch = m_audioData[i].Pitch;

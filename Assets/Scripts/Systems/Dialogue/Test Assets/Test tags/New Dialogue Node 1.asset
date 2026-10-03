@@ -25,6 +25,9 @@ MonoBehaviour:
       m_min: 1
       m_max: 1.5
     m_sounds: []
+    m_autoSkip: 0
+    m_delay: 0
+    m_unskippable: 0
   - m_text: Anyways, here is two things at once! <sound=0><speed=0.2> hopefully this
       worked properly. To be sure...
     m_expression:
@@ -42,6 +45,9 @@ MonoBehaviour:
       m_isPitchRandom: 0
       m_min: 0
       m_max: 0
+    m_autoSkip: 0
+    m_delay: 0
+    m_unskippable: 0
   - m_text: 'Here is a second round: <sound=0><sound=1> one should be higher pitch
       and the other lower. Again here: <sound=0><sound=1> see.'
     m_expression:
@@ -64,6 +70,9 @@ MonoBehaviour:
       m_isPitchRandom: 0
       m_min: 0
       m_max: 0
+    m_autoSkip: 0
+    m_delay: 0
+    m_unskippable: 0
   - m_text: 'And now to be sure sure, i''ll remove the voice and try again: <sound=0><sound=1>
       hopefully worked.'
     m_expression:
@@ -86,4 +95,7 @@ MonoBehaviour:
       m_isPitchRandom: 0
       m_min: 0
       m_max: 0
+    m_autoSkip: 0
+    m_delay: 0
+    m_unskippable: 0
   m_defaultVoice: 0

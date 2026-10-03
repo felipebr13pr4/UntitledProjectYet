@@ -9,4 +9,9 @@ public struct LineExpression
     [SerializeField] private bool m_hasFullBody;
     public readonly bool HasFullBody => m_hasFullBody;
 
+    public LineExpression(Expressions assignedExpression, bool hasFullBody)
+    {
+        m_assignedExpression = assignedExpression;
+        m_hasFullBody = hasFullBody;
+    }
 }

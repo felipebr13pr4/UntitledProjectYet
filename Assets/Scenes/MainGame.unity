@@ -2573,6 +2573,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FadeUIStart
   m_image: {fileID: 937019856}
   m_hideInEditor: 1
+  m_smootherTransition: 1
+  m_time: 2
 --- !u!114 &937019856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2619,6 +2621,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 822339724037351807, guid: 710943ee4a8adb04693f717077cb6c10, type: 3}
+      propertyPath: m_audioData.Array.data[0].m_isPitchRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822339724037351807, guid: 710943ee4a8adb04693f717077cb6c10, type: 3}
+      propertyPath: m_audioData.Array.data[1].m_isPitchRandom
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1764290053992248295, guid: 710943ee4a8adb04693f717077cb6c10, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2627,6 +2637,10 @@ PrefabInstance:
       propertyPath: 'm_audios.Array.data[0]'
       value: 
       objectReference: {fileID: 1055578813}
+    - target: {fileID: 2121253060550090121, guid: 710943ee4a8adb04693f717077cb6c10, type: 3}
+      propertyPath: m_holder
+      value: 
+      objectReference: {fileID: 11400000, guid: 03df8a6fb05758043b4115d79749cc76, type: 2}
     - target: {fileID: 3460113693983233700, guid: 710943ee4a8adb04693f717077cb6c10, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2662,6 +2676,10 @@ PrefabInstance:
     - target: {fileID: 3959864664459159900, guid: 710943ee4a8adb04693f717077cb6c10, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134929244487613231, guid: 710943ee4a8adb04693f717077cb6c10, type: 3}
+      propertyPath: m_audioData.Array.data[0].m_isPitchRandom
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6589433903667541192, guid: 710943ee4a8adb04693f717077cb6c10, type: 3}
       propertyPath: m_Pivot.x

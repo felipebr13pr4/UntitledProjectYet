@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.AdaptivePerformance;
 using UnityEngine.UI;
 
 public class ExpressionsHandler : MonoBehaviour
 {
     [SerializeField] private Image m_portrait;
     [SerializeField] private Image m_fullBody;
-    [SerializeField] private ExpressionSprites[] m_sprites;
+    [SerializeField] private ExpressionsHolder m_holder;
 
     private void OnEnable()
     {
@@ -17,20 +18,13 @@ public class ExpressionsHandler : MonoBehaviour
         TextBox.OnExpression -= HandleExpression;
     }
 
-    private void OnValidate()
-    {
-        for (int i = 0;  i < m_sprites.Length; i++)
-        {
-            m_sprites[i].Name = m_sprites[i].Expression.ToString();
-        }
-    }
-
     public void HandleExpression(LineExpression expression)
     {
-        m_portrait.enabled = true;
-        m_fullBody.enabled = expression.HasFullBody;
+        ExpressionSprites? sprites = m_holder.GetExpressionSprite(expression.AssignedExpression);
+        if (sprites == null) return;
 
-        bool found = false;
+        m_portrait.enabled = expression.AssignedExpression != Expressions.None;
+        m_fullBody.enabled = expression.HasFullBody;
 
         if (expression.AssignedExpression == Expressions.None)
         {
@@ -39,17 +33,10 @@ public class ExpressionsHandler : MonoBehaviour
             return;
         }
 
-        foreach (ExpressionSprites data in m_sprites)
-        {
-            if (expression.AssignedExpression == data.Expression)
-            {
-                m_portrait.sprite = data.Portrait;
-                m_fullBody.sprite = data.FullBody;
-                found = true;
-            }
-        }
+        if (sprites.Value.Portrait != null)
+            m_portrait.sprite = sprites.Value.Portrait;
 
-        if (!found)
-            ErrorLogger.LogError("Something went wrong, a expression not detected has been received in the handler. Make sure theres a data for each expression.");
+        if (sprites.Value.FullBody != null)
+            m_fullBody.sprite = sprites.Value.FullBody;
     }
 }
