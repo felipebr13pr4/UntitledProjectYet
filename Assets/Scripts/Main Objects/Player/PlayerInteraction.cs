@@ -39,6 +39,7 @@ public class PlayerInteraction : MonoBehaviour
             rayColor = Color.green;
             var interactable = hit[^1].collider.GetComponentInParent<IInteractable>();
             interactable?.Interact();
+            m_movement.OutsideMoveDir = Vector2.zero;
         }
         Debug.DrawRay(transform.position, m_movement.LastDir.normalized * m_reach, rayColor, 1);
     }
@@ -55,6 +56,7 @@ public class PlayerInteraction : MonoBehaviour
             DialogueNode tmpCopy = Instantiate(m_checkDialogue);
             tmpCopy.Lines[0].Text += hit.Length.ToString() + '.';
             OnCheckEvent?.Invoke(tmpCopy);
+            m_movement.OutsideMoveDir = Vector2.zero;
         }
         Debug.DrawRay(transform.position, m_movement.LastDir.normalized * m_reach, rayColor, 1);
     }

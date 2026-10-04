@@ -66,8 +66,9 @@ public class CutsceneMover : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (m_isXMoving){
-        if (m_dir.x > 0)
+        if (m_isXMoving)
+        {
+            if (m_dir.x > 0)
         {
             if (transform.position.x <= m_data.Pos.x)
             {
@@ -118,5 +119,7 @@ public class CutsceneMover : MonoBehaviour
                 }
             }
         }
+        if (m_isXMoving || m_isYMoving)
+            m_playerMovement.OutsideMoveDir = new(Mathf.Clamp(m_playerMovement.Rb2d.linearVelocityX, -1, 1), Mathf.Clamp(m_playerMovement.Rb2d.linearVelocityY, -1, 1));
     }
 }

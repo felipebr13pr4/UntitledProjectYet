@@ -1026,6 +1026,11 @@ MonoBehaviour:
     m_text: 
     m_tags: []
   m_tagIndex: 0
+--- !u!212 &516929989 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1230201933621385357, guid: 6076de39812af5a43882002ad3798b06, type: 3}
+  m_PrefabInstance: {fileID: 5966801927183469417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3839,10 +3844,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6634221769320977606, guid: 6076de39812af5a43882002ad3798b06, type: 3}
-      propertyPath: m_checkDialogue
+    - target: {fileID: 1703869628618336464, guid: 6076de39812af5a43882002ad3798b06, type: 3}
+      propertyPath: m_spriteRen
       value: 
-      objectReference: {fileID: 11400000, guid: 9bfb41f9c701e89479327d964fcf26d6, type: 2}
+      objectReference: {fileID: 516929989}
     - target: {fileID: 7170354464915963390, guid: 6076de39812af5a43882002ad3798b06, type: 3}
       propertyPath: m_Name
       value: Player
