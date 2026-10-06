@@ -20,7 +20,7 @@ public class DialogueNode : NodeWithNext
             }
             m_warningIndex = 0;
         }
-        //
+
         if (m_lines.Length != 0)
         for (int i = 0; i < m_lines.Length; i++)
         {

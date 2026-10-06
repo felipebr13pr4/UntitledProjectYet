@@ -9,6 +9,7 @@ public class TextBoxHandler : MonoBehaviour
         DialogueableObject.OnInteract += Execute;
         CutsceneMover.OnNextNode += Execute;
         PlayerInteraction.OnCheckEvent += Execute;
+        PlayerPhone.OnPhoneActivated += Execute;
     }
 
     private void OnDisable()
@@ -16,6 +17,7 @@ public class TextBoxHandler : MonoBehaviour
         DialogueableObject.OnInteract -= Execute;
         CutsceneMover.OnNextNode -= Execute;
         PlayerInteraction.OnCheckEvent -= Execute;
+        PlayerPhone.OnPhoneActivated -= Execute;
     }
 
     private void Execute(Node node)

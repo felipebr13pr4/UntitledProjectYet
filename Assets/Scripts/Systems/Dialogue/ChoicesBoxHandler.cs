@@ -29,21 +29,35 @@ public class ChoicesBoxHandler : MonoBehaviour
 
             if (node.Options[i].FlagRequired != EventFlags.None)
             {
-                if (!EventFlagsHolder.Get(node.Options[i].FlagRequired))
+                bool hide = false;
+
+                if (!node.Options[i].ReverseRequirement)
+                {
+                    hide = !EventFlagsHolder.Get(node.Options[i].FlagRequired);
+                }
+                else
+                {
+                    hide = EventFlagsHolder.Get(node.Options[i].FlagRequired);
+                }
+
+                if (hide)
+                {
                     if (!node.Options[i].ShowOnUnmet)
                     {
-                        shouldActivate = false; 
+                        shouldActivate = false;
                     }
                     else
                     {
                         name = "???";
                         m_choicesBox[i].Button.interactable = false;
                     }
+                }
             }
             m_choicesBox[i].Flag = node.Options[i].Flag;
             m_choicesBox[i].gameObject.SetActive(shouldActivate);
             m_choicesBox[i].Node = node.Options[i].Node;
             m_choicesBox[i].Text = name;
+            m_choicesBox[i].DisableFlag = node.Options[i].DisableFlag;
         }
     }
 

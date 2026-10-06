@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374e8350c5d75c945a7f6684c7fc0375, type: 3}
+  m_Name: Phone Choices
+  m_EditorClassIdentifier: Assembly-CSharp::ChoicesNode
+  m_options:
+  - m_name: Nothing.
+    m_node: {fileID: 0}
+    m_flag: 0
+    m_flagRequired: 0
+    m_showOnUnmet: 0
+  - m_name: Anything to share ahead?
+    m_node: {fileID: 11400000, guid: ace0ffc43590e1f4fbe31148df25859b, type: 2}
+    m_flag: 0
+    m_flagRequired: 0
+    m_showOnUnmet: 0

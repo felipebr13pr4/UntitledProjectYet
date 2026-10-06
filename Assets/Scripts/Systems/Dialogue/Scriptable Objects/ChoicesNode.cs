@@ -6,18 +6,9 @@ public class ChoicesNode : Node
     [SerializeField] private Option[] m_options = new Option[1];
     public Option[] Options => m_options;
 
-    private void OnEnable()
-    {
-        foreach (Option option in m_options)
-        {
-            if (option.Node == null)
-                ErrorLogger.LogError($"Null next node detected in a reference. Its option: '{(option.Name == "" ? "No option named detected" : option.Name)}', inside '{name}'");
-        }
-    }
-
     private void OnValidate()
     {
-        if (m_options.Length == 0)
+        if (m_options.Length <= 0)
             m_options = new Option[1];
     }
 }

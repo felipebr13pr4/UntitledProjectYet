@@ -15,6 +15,7 @@ public class DialogueRouter : MonoBehaviour
     public static event Action<bool> OnActivation;
     private bool m_isChoosing;
     public static event Action<CutsceneNode> OnCutsceneNode;
+    public static event Action<PhoneNode> OnPhoneNode;
     public string DialogueText => m_dialogueNode.Lines[m_index].Text;
     public bool InLastLineEnd => m_index >= m_dialogueNode.Lines.Length - 1 && !m_textBox.IsWriting;
     private Coroutine m_skipCoroutine;
@@ -82,6 +83,21 @@ public class DialogueRouter : MonoBehaviour
             OnCutsceneNode?.Invoke(node as CutsceneNode);
             m_textBox.Hide();
         }
+        else if (node is PhoneNode)
+        {
+            OnPhoneNode?.Invoke(node as PhoneNode);
+            PhoneNode phone = node as PhoneNode;
+            if (phone.Next != null)
+            {
+                Initialize(phone.Next);
+                return;
+            }
+            m_textBox.Hide();
+        }
+        else if (node == null)
+        {
+            m_textBox.Hide();
+        }
     }
 
     private void Next()
@@ -132,12 +148,17 @@ public class DialogueRouter : MonoBehaviour
         }
         else if (m_dialogueNode.Next is CutsceneNode)
         {
-            m_textBox.Hide();
             OnCutsceneNode?.Invoke(m_dialogueNode.Next as CutsceneNode);
+            m_textBox.Hide();
+        }
+        else if (m_dialogueNode.Next is PhoneNode)
+        {
+            OnPhoneNode?.Invoke(m_dialogueNode.Next as PhoneNode);
+            Initialize(m_dialogueNode.Next);
         }
         else if (m_dialogueNode.Next != null)
         {
-            Initialize(m_dialogueNode.Next as DialogueNode);
+            Initialize(m_dialogueNode.Next);
         }
         else
         {
