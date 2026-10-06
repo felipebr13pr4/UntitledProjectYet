@@ -79,9 +79,5 @@ public class PlayerMovement : MonoBehaviour
         m_rb2d.linearVelocity = Vector2.zero;
     }
 
-    private void SetFlip()
-    {
-        m_spriteRen.flipX = m_lastDir.x < 0;
-        ErrorLogger.LogVar(m_lastDir.x < 0, nameof(m_lastDir.x));
-    }
+    private void SetFlip() => m_spriteRen.flipX = m_lastDir.x < 0;
 }

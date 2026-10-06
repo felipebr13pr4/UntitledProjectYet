@@ -100,6 +100,8 @@ public class DialogueEditorWindow : EditorWindow
 
             m_next = (Node)EditorGUILayout.ObjectField(
         "Next Node", m_next, typeof(Node), false);
+            if (m_next != null)
+                m_node.Next = m_next;
 
             while (m_showOptions.Count < m_node.Lines.Length) EditBools(true);
             while (m_showOptions.Count > m_node.Lines.Length) EditBools(false, m_showOptions.Count - 1);
@@ -503,7 +505,6 @@ public class DialogueEditorWindow : EditorWindow
 
     private void UpdateNext()
     {
-        m_next = (Node)CreateInstance("Node");
         m_next = m_node != null ? m_node.Next : null;
     }
 }

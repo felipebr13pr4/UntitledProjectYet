@@ -4,4 +4,5 @@ public enum EventFlags
     Test = 1,
     TestCutscene = 2,
     TestChoice = 3,
+    TestReq = 4,
 }

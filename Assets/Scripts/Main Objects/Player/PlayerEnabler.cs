@@ -5,6 +5,7 @@ public class PlayerEnabler : MonoBehaviour
 {
     [SerializeField] private PlayerMovement m_movement;
     [SerializeField] private PlayerInteraction m_interaction;
+    [SerializeField] private PlayerPhone m_phone;
     private bool m_inDialogue;
     private bool m_inCutscene;
 
@@ -44,5 +45,6 @@ public class PlayerEnabler : MonoBehaviour
         if (m_inCutscene || m_inDialogue) return;
         m_movement.enabled = state;
         m_interaction.enabled = state;
+        m_phone.enabled = state;
     }
 }
