@@ -11,7 +11,7 @@ public class DeathHandler : MonoBehaviour
     public static event Action<PhoneNode> OnDeathImage;
     public static event Action OnDeathVideo;
     private bool m_finishedVideo;
-    private string[] m_randoms = new string[]
+    private readonly string[] m_randoms = new string[]
     {
         "WHY WHY WHY WHY WHY WHY WHY WHY WHY WHY WHY WHY WHY WHY",
         "YOU YOU YOU YOU YOU YOU YOU YOU YOU YOU YOU YOU YOU YOU",
