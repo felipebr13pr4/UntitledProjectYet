@@ -85,6 +85,8 @@ public class DialogueEditorWindow : EditorWindow
 
             serializedObject.Update();
 
+            EditorUtility.SetDirty(m_node);
+
             m_holder = (ExpressionsHolder)EditorGUILayout.ObjectField(
     "Expression Holder", m_holder, typeof(ExpressionsHolder), false);
             
