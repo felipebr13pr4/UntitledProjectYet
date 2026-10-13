@@ -8,6 +8,7 @@ public class DeathHandler : MonoBehaviour
     [SerializeField] private DeathData[] m_data;
     public static event Action OnDeathLate;
     public static event Action OnDeath;
+    public static event Action<DeathType> OnDeathType;
     public static event Action<PhoneNode> OnDeathImage;
     public static event Action OnDeathVideo;
     private bool m_finishedVideo;
@@ -75,6 +76,7 @@ public class DeathHandler : MonoBehaviour
     private IEnumerator Death(float delay, DeathType type)
     {
         OnDeath?.Invoke();
+        OnDeathType?.Invoke(type);
         yield return new WaitForSecondsRealtime(delay);
         OnDeathVideo?.Invoke();
         while (!m_finishedVideo)

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a37a363cce15334ea40247805112d2d, type: 3}
-  m_Name: Main Char Expression Holder
+  m_Name: Main_Char_Expression_Holder
   m_EditorClassIdentifier: Assembly-CSharp::ExpressionsHolder
   m_sprites:
   - m_name: None

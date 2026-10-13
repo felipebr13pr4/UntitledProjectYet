@@ -5,6 +5,7 @@ public static class EventFlagsHolder
 {
     private static readonly Dictionary<EventFlags, bool> s_flags = new();
     private static readonly HashSet<EventFlags> s_flagsSet = new();
+    public static event Action OnFlagsChanged;
 
     static EventFlagsHolder()
     {
@@ -13,7 +14,11 @@ public static class EventFlagsHolder
     }
 
     public static bool Get(EventFlags flag) => s_flags.TryGetValue(flag, out bool value) && value;
-    public static void Set(EventFlags flag, bool value) => s_flags[flag] = value;
+    public static void Set(EventFlags flag, bool value)
+    {
+        s_flags[flag] = value;
+        OnFlagsChanged?.Invoke();
+    }
 
     public static void Configure(FlagPersistence[] flags)
     {

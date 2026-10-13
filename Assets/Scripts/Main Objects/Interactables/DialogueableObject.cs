@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.InputSystem.HID;
 
 public class DialogueableObject : InteractableObject
 {
@@ -18,26 +17,36 @@ public class DialogueableObject : InteractableObject
 
         if (m_flagRequired != EventFlags.None)
         {
-            bool allow = false;
+            bool allow = true;
 
             ErrorLogger.DebugLog(EventFlagsHolder.Get(m_flagRequired));
 
             if (!m_reverseRequirement)
             {
-                allow = !EventFlagsHolder.Get(m_flagRequired);
+                allow = EventFlagsHolder.Get(m_flagRequired);
             }
             else
             {
-                allow = EventFlagsHolder.Get(m_flagRequired);
+                allow = !EventFlagsHolder.Get(m_flagRequired);
             }
-            if (allow)
+            if (!allow)
             {
+                UnMetRequirement();
                 if (m_unmetRequirementNode != null)
                     OnInteract?.Invoke(m_unmetRequirementNode);
                 return;
             }
+            else
+            {
+                MetRequirement();
+            }
         }
 
+        Interacted();
         OnInteract?.Invoke(m_node);
     }
+
+    protected virtual void MetRequirement() { }
+    protected virtual void UnMetRequirement() { }
+    protected virtual void Interacted() { }
 }

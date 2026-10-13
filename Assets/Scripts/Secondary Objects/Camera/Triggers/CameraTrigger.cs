@@ -15,6 +15,7 @@ public class CameraTrigger : AreaTrigger
 
     protected override void ExecuteAction()
     {
+        base.ExecuteAction();
         OnTriggerEnter?.Invoke(m_data);
     }
 }

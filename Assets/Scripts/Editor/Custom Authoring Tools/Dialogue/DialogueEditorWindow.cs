@@ -53,6 +53,9 @@ public class DialogueEditorWindow : EditorWindow
 
     private void OnEnable()
     {
+        if (m_holder == null)
+            m_holder = Resources.Load<ExpressionsHolder>("Main_Char_Expression_Holder");
+       
         if (EditorPrefs.HasKey(HolderStringKey))
         {
             string json = EditorPrefs.GetString(HolderStringKey);

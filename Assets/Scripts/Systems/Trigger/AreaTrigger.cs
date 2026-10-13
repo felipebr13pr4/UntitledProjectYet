@@ -4,6 +4,9 @@ using UnityEngine;
 public class AreaTrigger : MonoBehaviour
 {
     protected virtual Color GizmosColor => Color.white;
+    [SerializeField] private EventFlags m_flagRequired;
+    public EventFlags FlagRequired => m_flagRequired;
+
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
@@ -25,5 +28,15 @@ public class AreaTrigger : MonoBehaviour
         Gizmos.DrawWireCube(Vector3.zero, Vector3.one);
     }
 
-    protected virtual void ExecuteAction() { }
+    protected virtual void ExecuteAction()
+    {
+        if (m_flagRequired != EventFlags.None)
+            if (!EventFlagsHolder.Get(m_flagRequired))
+            {
+                UnmetFlag();
+                return;
+            }
+    }
+
+    protected virtual void UnmetFlag() { }
 }

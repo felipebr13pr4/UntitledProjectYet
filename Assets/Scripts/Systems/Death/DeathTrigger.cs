@@ -10,6 +10,7 @@ public class DeathTrigger : AreaTrigger
 
     protected override void ExecuteAction()
     {
+        base.ExecuteAction();
         OnTriggerEnter?.Invoke(m_delay, m_type);
     }
 }

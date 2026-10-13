@@ -19,6 +19,7 @@ public class CutsceneTrigger : AreaTrigger
 
     protected override void ExecuteAction()
     {
+        base.ExecuteAction();
         OnTriggerEnter?.Invoke(m_node);
         if (!m_isRepeatable)
             m_hasTouched = true;
