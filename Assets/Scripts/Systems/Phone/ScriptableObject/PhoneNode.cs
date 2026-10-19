@@ -20,11 +20,11 @@ public class PhoneNode : NodeWithNext
             
             for (int i = 0; i < m_data.ImagesFiles.Length; i++)
                 if (!File.Exists(Path.Combine(Application.streamingAssetsPath, ImagesPath, m_data.ImagesFiles[i].Path)))
-                    ErrorLogger.LogWarning($"Warning! A image file path in a phone data has not been detected, make sure all image paths are named correctly and exactly as the file name (make sure it has the extension name included, .png). I am: {name} (phone node), and the infriging line is inside Image Files, at element: {i}.");
+                    ErrorLogger.LogWarning($"A image file path in a phone data has not been detected, make sure all image paths are named correctly and exactly as the file name (make sure it has the extension name included, .png). I am: {name} (phone node), and the infriging line is inside Image Files, at element: {i}.");
             
             for (int i = 0; i < m_data.AudiosFiles.Length; i++)
                 if (!File.Exists(Path.Combine(Application.streamingAssetsPath, AudiosPath, m_data.AudiosFiles[i].Path)))
-                    ErrorLogger.LogWarning($"Warning! A audio file path in a phone data has not been detected, make sure all audio paths are named correctly and exactly as the file name (make sure it has the extension name included, .mp3). I am: {name} (phone node), and the infriging line is inside Audio Files, at element: {i}.");
+                    ErrorLogger.LogWarning($"A audio file path in a phone data has not been detected, make sure all audio paths are named correctly and exactly as the file name (make sure it has the extension name included, .mp3). I am: {name} (phone node), and the infriging line is inside Audio Files, at element: {i}.");
         }
     }
 }

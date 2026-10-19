@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc87bf013a7d104499172ff18bf4226, type: 3}
+  m_Name: PullPhone
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationNode
+  m_next: {fileID: 11400000, guid: b32867e74c7af6b4cbe9933676b98992, type: 2}
+  m_state: AnimPhone
+  m_keep: 0
+  m_time: 5
+  m_animator: {fileID: 9100000, guid: cf193e3ab27437d43ab68433c83954bc, type: 2}

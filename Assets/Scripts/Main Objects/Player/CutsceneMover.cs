@@ -5,6 +5,7 @@ using UnityEngine;
 public class CutsceneMover : MonoBehaviour
 {
     [SerializeField] private PlayerMovement m_playerMovement;
+    [SerializeField] private PlayerInteraction m_playerInteraction;
     public static event Action<bool> OnCutscene;
     public static event Action<Node> OnNextNode;
     private float Speed { get => m_playerMovement.Speed; }
@@ -54,8 +55,21 @@ public class CutsceneMover : MonoBehaviour
             {
                 yield return null;
             }
+
+            if (data.Interact)
+                m_playerInteraction.Interact();
+
+            if (data.Dir != Vector2.zero)
+            {
+                m_playerMovement.OutsideMoveDir = data.Dir;
+                m_playerMovement.OutsideMoveDir = Vector2.zero;
+            }
+
             gameObject.transform.position = m_data.Pos;
             m_playerMovement.Rb2d.linearVelocity = Vector2.zero;
+
+            if (data.Delay > 0)
+                yield return new WaitForSeconds(data.Delay);
         }
         m_isXMoving = false;
         m_isYMoving = false;

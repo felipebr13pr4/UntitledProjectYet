@@ -5,7 +5,7 @@ public class PlayerDeathAnim : MonoBehaviour
 {
     [SerializeField] private GameObject m_sprite;
     [SerializeField] private SpriteRenderer m_deathSprite;
-    [SerializeField] private Animator m_deathAnimator;
+    [SerializeField] private Animator m_animator;
     [SerializeField] private DeathClip[] m_deathClips;
 
     [Serializable]
@@ -38,7 +38,14 @@ public class PlayerDeathAnim : MonoBehaviour
         {
             if (m_deathClips[i].Type == type)
             {
-                m_deathAnimator.Play(m_deathClips[i].ClipName);
+                if (m_animator.HasState(0, Animator.StringToHash(m_deathClips[i].ClipName)))
+                {
+                    m_animator.Play(m_deathClips[i].ClipName);
+                }
+                else
+                {
+                    ErrorLogger.LogError("State received in Player Death Anim but the state/clip name is either missing or written wrong.");
+                }
                 return;
             }
         }

@@ -16,6 +16,7 @@ public class DialogueRouter : MonoBehaviour
     private bool m_isChoosing;
     public static event Action<CutsceneNode> OnCutsceneNode;
     public static event Action<PhoneNode> OnPhoneNode;
+    public static event Action<AnimationNode> OnAnimationNode;
     public string DialogueText => m_dialogueNode.Lines[m_index].Text;
     public bool InLastLineEnd => m_index >= m_dialogueNode.Lines.Length - 1 && !m_textBox.IsWriting;
     private Coroutine m_skipCoroutine;
@@ -94,6 +95,17 @@ public class DialogueRouter : MonoBehaviour
             }
             m_textBox.Hide();
         }
+        else if (node is AnimationNode)
+        {
+            OnAnimationNode?.Invoke(node as AnimationNode);
+            AnimationNode anim = node as AnimationNode;
+            if (anim.Next != null)
+            {
+                Initialize(anim.Next);
+                return;
+            }
+            m_textBox.Hide();
+        }
         else if (node == null)
         {
             m_textBox.Hide();
@@ -150,11 +162,6 @@ public class DialogueRouter : MonoBehaviour
         {
             OnCutsceneNode?.Invoke(m_dialogueNode.Next as CutsceneNode);
             m_textBox.Hide();
-        }
-        else if (m_dialogueNode.Next is PhoneNode)
-        {
-            OnPhoneNode?.Invoke(m_dialogueNode.Next as PhoneNode);
-            Initialize(m_dialogueNode.Next);
         }
         else if (m_dialogueNode.Next != null)
         {

@@ -7,4 +7,5 @@ public enum EventFlags
     TestReq = 4,
     HasIDChip = 5,
     LockedDoor = 6,
+    InitialCutscene = 7,
 }

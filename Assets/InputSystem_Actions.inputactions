@@ -379,6 +379,17 @@
                 },
                 {
                     "name": "",
+                    "id": "20f571ec-7822-491f-b7d9-5be9de9eb791",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Check",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "6c548ac5-71c2-49f5-bb2e-c8e1be154701",
                     "path": "<Keyboard>/q",
                     "interactions": "",

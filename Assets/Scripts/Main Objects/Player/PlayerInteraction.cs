@@ -28,6 +28,8 @@ public class PlayerInteraction : MonoBehaviour
     private void OnInteractPerformed(InputAction.CallbackContext context) => OnInteract();
     private void OnCheckPerformed(InputAction.CallbackContext context) => OnCheck();
 
+    public void Interact() => OnInteract();
+
     private void OnInteract()
     {
         RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position, m_movement.LastDir, m_reach, m_interactablesLayer);

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -38,6 +39,12 @@ public class PlayerMovement : MonoBehaviour
     private float m_pressTimer = 0;
     [SerializeField] private float m_defaultPressTime = 0.1f;
     private bool m_isHolding;
+    public static event Action OnActive;
+
+    private void OnEnable()
+    {
+        OnActive?.Invoke();
+    }
 
     private void Update()
     {
