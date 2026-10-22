@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: 9bb56d24bd4a116439af675c37934903
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7002310250100816156
+    second: Graduate Cylinders Sheet_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19f55892143d2160800000000000000
+      internalID: 7002310250100816156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 2
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82b3a3d35d51d642991b687e58bbec9
+      internalID: -444528904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261a198a9d158d249bc9a896b034a7e4
+      internalID: -2103841811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf1dda8daf32264c98ae9ae9231a6d6
+      internalID: -1114560287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36bf438f4a81784d81c45fd9478dfd2
+      internalID: 395775760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068adf5f74b73be4b983a73ef06eacdb
+      internalID: 827274223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddaa61325ed5614ba72cb3bd647f71b
+      internalID: -508651368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443c325cbf4b6e148ae3c7140f106cd9
+      internalID: -2020497121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674939572bcd5534aade17ef77ca271a
+      internalID: 1530822793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cf30a24697a754abf2a413af255574
+      internalID: 356590150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1421494cce7f1774ebd0b6fc304c8683
+      internalID: 56930548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f88c3605b1fc6d4dae03c5f2f9028d5
+      internalID: 428358414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aed86f09800ddd45a78d1e929ec4dd5
+      internalID: -1166910722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5330a2e3d1fff44b5a6142eca23cf1
+      internalID: 1352132522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8790e0bdd18be524693b6679a3c927c9
+      internalID: -1098149935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a324349e666f848ac5aaa6315d1967
+      internalID: -371499047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e68a9cdcc9213419543547da9be95c
+      internalID: 232945006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d129cee711a9b045859432932c4776f
+      internalID: -1161565489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97aab2aa81d86a4eb62daf1f44aa131
+      internalID: -1642686433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21baae4c7f9381b49b63e672c4fdf4dd
+      internalID: 605801228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f2fb5c29b58584c9aec8f7a05577d9
+      internalID: 686860662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9808a80db57afb945a01e1486ab434b9
+      internalID: 783246705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graduate Cylinders Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 2
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8b62fe497a7024e8f4d7dd00969861
+      internalID: 1802192704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a1735d4e611fd9e478f4243e22bf7743
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2.0,"y":10.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Graduate Cylinders Sheet_0: 7002310250100816156
+      Graduate Cylinders Sheet_1: -444528904
+      Graduate Cylinders Sheet_10: 1530822793
+      Graduate Cylinders Sheet_11: 356590150
+      Graduate Cylinders Sheet_12: -651679314
+      Graduate Cylinders Sheet_13: 56930548
+      Graduate Cylinders Sheet_14: 428358414
+      Graduate Cylinders Sheet_15: -1166910722
+      Graduate Cylinders Sheet_16: 1352132522
+      Graduate Cylinders Sheet_17: -1098149935
+      Graduate Cylinders Sheet_18: -371499047
+      Graduate Cylinders Sheet_19: 232945006
+      Graduate Cylinders Sheet_2: -2103841811
+      Graduate Cylinders Sheet_20: -1161565489
+      Graduate Cylinders Sheet_21: -1642686433
+      Graduate Cylinders Sheet_22: 605801228
+      Graduate Cylinders Sheet_23: 686860662
+      Graduate Cylinders Sheet_24: 783246705
+      Graduate Cylinders Sheet_25: 1802192704
+      Graduate Cylinders Sheet_26: 1972930899
+      Graduate Cylinders Sheet_27: 1617285470
+      Graduate Cylinders Sheet_28: -1834471244
+      Graduate Cylinders Sheet_29: -64997898
+      Graduate Cylinders Sheet_3: -1114560287
+      Graduate Cylinders Sheet_30: 1746181967
+      Graduate Cylinders Sheet_31: 1484722573
+      Graduate Cylinders Sheet_32: -1578475676
+      Graduate Cylinders Sheet_4: 395775760
+      Graduate Cylinders Sheet_5: 1384128924
+      Graduate Cylinders Sheet_6: 827274223
+      Graduate Cylinders Sheet_7: 1031701509
+      Graduate Cylinders Sheet_8: -508651368
+      Graduate Cylinders Sheet_9: -2020497121
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

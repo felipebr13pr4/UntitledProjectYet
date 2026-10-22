@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   m_next: {fileID: 0}
   m_lines:
-  - m_text: It won't open, it's locked...
+  - m_text: It's a door. It won't open, it's locked...
     m_expression:
-      m_assignedExpression: 0
+      m_assignedExpression: 1
       m_hasFullBody: 0
     m_voice:
       m_name: DefaultVoice
