@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c61a39d91a14fd6489439d1c11d539e4, type: 3}
+  m_Name: Initial Movement
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneNode
+  m_next: {fileID: 11400000, guid: 3595a162f972e624eb8ebf86ce36ca42, type: 2}
+  m_data:
+  - m_pos: {x: -37.65, y: -5.46}
+    m_interact: 0
+    m_dir: {x: 0, y: 0}
+    m_delay: 1
+  - m_pos: {x: -37.65, y: -5.46}
+    m_interact: 0
+    m_dir: {x: 1, y: 0}
+    m_delay: 1
+  - m_pos: {x: -37.65, y: -5.46}
+    m_interact: 0
+    m_dir: {x: -1, y: 0}
+    m_delay: 1
+  - m_pos: {x: -37.65, y: -5.46}
+    m_interact: 0
+    m_dir: {x: 0, y: 1}
+    m_delay: 1
+  - m_pos: {x: -37.65, y: -2.515}
+    m_interact: 0
+    m_dir: {x: 0, y: 0}
+    m_delay: 0
+  - m_pos: {x: -37.65, y: -2.515}
+    m_interact: 1
+    m_dir: {x: 0, y: 0}
+    m_delay: 0

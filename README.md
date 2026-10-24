@@ -1,3 +1,19 @@
+# Note.
+
+So. I have decided to abandon this project. Maybe a better word would be archiving, idk. But basically I'll stop working on it.
+For some reason, I hit a brick wall. I've made the necessary things to start working on the initial sequence and the actual game but I just can't find the motivation in me to do it. Lately progress has slowed to a complete crawl.
+But, i've put thought into this before deciding it.
+While I do know finishing projects is a really really valuable skill, I have weighed and decided that I've got something also quite important from this project already, the actual coding skills. In the first week I had made a looot of things, in a genuinely impressive pace.
+I could finish this later, who knows.
+But I think it is worse forcing myself to try to finish it, since it clearly is not working. I think my interest has shifted to making a new project.
+I do also know that along the making of the project that I would face more things and need to do more mechanics.
+
+Right now there are two issues which i'll leave as is.
+First is rendering layers and the player. They are not working properly, mostly the "I need you to stay infront of me when my y is above, inversed if y is below".
+Second is needing a way to block raycasts, could technically be achieved with a blank interactable. But yeah, you can interact with things form behind walls.
+
+
+
 # UntitledProjectYet
 (Name yet to be decided if it wasn't obvious)
 
@@ -27,10 +43,15 @@ Re-appearances from last project
 - TBA.
 
 I learned
-- TBA.
+- Scriptable Objects (I struggled a bit at first but then got then and yeah they are cool).
+- A little more about structs.
+- How to make a array lookup more secure by searching by type and not index.
+- Custom Editor and Custom Window.
+- OnGui vs CreateGui.
+- Dialogue system design.
 
 Minor learnt things
-- TBA.
+- MoveTowards vs SmoothDamp.
 
 Learned but not implemented.
 - TBA.
@@ -58,6 +79,8 @@ Did I actually do it? (Did i do past "Next times i should")
 ---Did i?---
 
 General Thoughts
+- I discovered it is realllly hard to begin a game. After having made the mechanics and standing at the point of actually creating the first minutes of gameplay of the game its really hard to think about all the things that go into it.
+- Another thing I could've done a bit better was the vials. Instead of copy and pasting the sprites I could've likely made it dynamic and just do the randomness of vials in-game instead of doing 267 different sprites lol. But since I made them already im gonna use them but yeah the better way would've been to simply.
 
 # Credits
 

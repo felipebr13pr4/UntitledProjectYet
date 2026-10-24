@@ -1,0 +1,75 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+
+public class SceneController : MonoBehaviour
+{
+    private string m_currentScene = SceneNames.MainMenu;
+    public bool IsInMenu => m_currentScene == SceneNames.MainMenu;
+
+
+    public static SceneController Instance { get; private set; }
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+
+        DontDestroyOnLoad(gameObject);
+    }
+
+    private void OnEnable()
+    {
+        m_currentScene = SceneManager.GetActiveScene().name;
+        SceneManager.sceneLoaded += ResetThings;
+        DeathHandler.OnDeathLate += ReloadScene;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= ResetThings;
+        DeathHandler.OnDeathLate -= ReloadScene;
+    }
+
+    private void Update()
+    {
+        // if (m_currentScene == SceneNames.MainMenu) return;
+        if (Keyboard.current.rKey.wasPressedThisFrame)
+            ReloadScene();
+    }
+
+    public void LoadScene(SceneType type)
+    {
+        SavingController.Instance.SaveAll();
+        m_currentScene = UpdateScene(type);
+        SceneManager.LoadScene(m_currentScene);
+    }
+
+    public void ReloadScene()
+    {
+        SavingController.Instance.SaveAll();
+        m_currentScene = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(m_currentScene);
+    }
+
+    private void ResetThings(Scene scene, LoadSceneMode mode)
+    {
+        Time.timeScale = 1;
+        GameStateController.Instance.ResetStates();
+    }
+
+    private string UpdateScene(SceneType type)
+    {
+        string scene = type switch
+        {
+            SceneType.Game => SceneNames.MainGame,
+            SceneType.Menu => SceneNames.MainMenu,
+            _ => SceneNames.MainMenu,
+        };
+        return scene;
+    }
+}

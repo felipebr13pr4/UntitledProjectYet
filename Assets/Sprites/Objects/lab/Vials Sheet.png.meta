@@ -1,0 +1,7100 @@
+fileFormatVersion: 2
+guid: 4fd8d3a704644db4ea6327395f38a953
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9059255899570338858
+    second: Vials Sheet_0
+  - first:
+      213: -6218391496234448912
+    second: Vials Sheet_1
+  - first:
+      213: 8817534175739267264
+    second: Vials Sheet_2
+  - first:
+      213: 9078840776774982063
+    second: Vials Sheet_3
+  - first:
+      213: 2907560166529676274
+    second: Vials Sheet_4
+  - first:
+      213: -3201024566972403448
+    second: Vials Sheet_5
+  - first:
+      213: 1542038142463349525
+    second: Vials Sheet_6
+  - first:
+      213: 5513889131960217201
+    second: Vials Sheet_7
+  - first:
+      213: -2920266338094196227
+    second: Vials Sheet_8
+  - first:
+      213: 9120502430145026932
+    second: Vials Sheet_9
+  - first:
+      213: -4551329032118045182
+    second: Vials Sheet_10
+  - first:
+      213: -8380531446378941164
+    second: Vials Sheet_11
+  - first:
+      213: -5905385362986923881
+    second: Vials Sheet_12
+  - first:
+      213: -3340993365605947173
+    second: Vials Sheet_13
+  - first:
+      213: -3763175340602695680
+    second: Vials Sheet_14
+  - first:
+      213: 2978525302359854090
+    second: Vials Sheet_15
+  - first:
+      213: -2235187231745251622
+    second: Vials Sheet_16
+  - first:
+      213: -5104908681886494937
+    second: Vials Sheet_17
+  - first:
+      213: 3905043985188130877
+    second: Vials Sheet_18
+  - first:
+      213: -5359189227555306659
+    second: Vials Sheet_19
+  - first:
+      213: -8432258314041707710
+    second: Vials Sheet_20
+  - first:
+      213: 8523684272868497321
+    second: Vials Sheet_21
+  - first:
+      213: 453633763611903211
+    second: Vials Sheet_22
+  - first:
+      213: -2230384588478346655
+    second: Vials Sheet_23
+  - first:
+      213: 6263700222431882552
+    second: Vials Sheet_24
+  - first:
+      213: 8870221639849547098
+    second: Vials Sheet_25
+  - first:
+      213: 900743036431463975
+    second: Vials Sheet_26
+  - first:
+      213: -8897079603963449311
+    second: Vials Sheet_27
+  - first:
+      213: 414618576403449384
+    second: Vials Sheet_28
+  - first:
+      213: 4230548819177230022
+    second: Vials Sheet_29
+  - first:
+      213: -6613606114155518213
+    second: Vials Sheet_30
+  - first:
+      213: -1198563259735130522
+    second: Vials Sheet_31
+  - first:
+      213: -5714890016610899074
+    second: Vials Sheet_32
+  - first:
+      213: -5753540851657226092
+    second: Vials Sheet_33
+  - first:
+      213: 8757446814451515738
+    second: Vials Sheet_34
+  - first:
+      213: 1958452261951713107
+    second: Vials Sheet_35
+  - first:
+      213: -729308130766097726
+    second: Vials Sheet_36
+  - first:
+      213: 3421921519997138735
+    second: Vials Sheet_37
+  - first:
+      213: 7768044757077207947
+    second: Vials Sheet_38
+  - first:
+      213: -7952287374024367679
+    second: Vials Sheet_39
+  - first:
+      213: -5110185899652919368
+    second: Vials Sheet_40
+  - first:
+      213: 2063739652010164734
+    second: Vials Sheet_41
+  - first:
+      213: 154190158098388701
+    second: Vials Sheet_42
+  - first:
+      213: 1046039135728143876
+    second: Vials Sheet_43
+  - first:
+      213: -1647796831853453237
+    second: Vials Sheet_44
+  - first:
+      213: 8067154740520438970
+    second: Vials Sheet_45
+  - first:
+      213: -7493414405753206803
+    second: Vials Sheet_46
+  - first:
+      213: -5703532705495892798
+    second: Vials Sheet_47
+  - first:
+      213: -7577050374794958174
+    second: Vials Sheet_48
+  - first:
+      213: 8188763770065957516
+    second: Vials Sheet_49
+  - first:
+      213: 6652997145836927252
+    second: Vials Sheet_50
+  - first:
+      213: -6864269859262505416
+    second: Vials Sheet_51
+  - first:
+      213: -332925482986114070
+    second: Vials Sheet_52
+  - first:
+      213: -9018820861723109496
+    second: Vials Sheet_53
+  - first:
+      213: 8110047076332193608
+    second: Vials Sheet_54
+  - first:
+      213: -621980482584570263
+    second: Vials Sheet_55
+  - first:
+      213: -1294606921741228039
+    second: Vials Sheet_56
+  - first:
+      213: 8016409970422387999
+    second: Vials Sheet_57
+  - first:
+      213: 3208878669279738292
+    second: Vials Sheet_58
+  - first:
+      213: 7286602497628870015
+    second: Vials Sheet_59
+  - first:
+      213: 4869230512473408791
+    second: Vials Sheet_60
+  - first:
+      213: 1298807889436762128
+    second: Vials Sheet_61
+  - first:
+      213: 5286178726318108346
+    second: Vials Sheet_62
+  - first:
+      213: -5730598368464460990
+    second: Vials Sheet_63
+  - first:
+      213: -6324746152075404072
+    second: Vials Sheet_64
+  - first:
+      213: -5338288392096197298
+    second: Vials Sheet_65
+  - first:
+      213: -7723893214702522582
+    second: Vials Sheet_66
+  - first:
+      213: -4651356050817498227
+    second: Vials Sheet_67
+  - first:
+      213: -7962387050933944785
+    second: Vials Sheet_68
+  - first:
+      213: -6661910136521815394
+    second: Vials Sheet_69
+  - first:
+      213: -8147689939878834716
+    second: Vials Sheet_70
+  - first:
+      213: 7894272481526339083
+    second: Vials Sheet_71
+  - first:
+      213: -8176837822872360530
+    second: Vials Sheet_72
+  - first:
+      213: -7472042132032087532
+    second: Vials Sheet_73
+  - first:
+      213: 6937502141635943099
+    second: Vials Sheet_74
+  - first:
+      213: -3743339156657062937
+    second: Vials Sheet_75
+  - first:
+      213: 218709263458781043
+    second: Vials Sheet_76
+  - first:
+      213: 2059373328250082993
+    second: Vials Sheet_77
+  - first:
+      213: 5305849387196647710
+    second: Vials Sheet_78
+  - first:
+      213: -3255309476501588725
+    second: Vials Sheet_79
+  - first:
+      213: -2503357393301179752
+    second: Vials Sheet_80
+  - first:
+      213: 2034690515192040567
+    second: Vials Sheet_81
+  - first:
+      213: -6557497208470604462
+    second: Vials Sheet_82
+  - first:
+      213: -2052699181078846515
+    second: Vials Sheet_83
+  - first:
+      213: 3014397092025136110
+    second: Vials Sheet_84
+  - first:
+      213: -2299819410662178416
+    second: Vials Sheet_85
+  - first:
+      213: -6493611139203404101
+    second: Vials Sheet_86
+  - first:
+      213: 4595627815921908793
+    second: Vials Sheet_87
+  - first:
+      213: 3120489468997090138
+    second: Vials Sheet_88
+  - first:
+      213: -8483115723878411228
+    second: Vials Sheet_89
+  - first:
+      213: 1625433908450205440
+    second: Vials Sheet_90
+  - first:
+      213: 8322889036913014100
+    second: Vials Sheet_91
+  - first:
+      213: 4545827667872441990
+    second: Vials Sheet_92
+  - first:
+      213: 7819009504158282196
+    second: Vials Sheet_93
+  - first:
+      213: -8446371039081524584
+    second: Vials Sheet_94
+  - first:
+      213: -1324770309825363862
+    second: Vials Sheet_95
+  - first:
+      213: -8947104386138832756
+    second: Vials Sheet_96
+  - first:
+      213: -1856097417322700002
+    second: Vials Sheet_97
+  - first:
+      213: -6221401303459065813
+    second: Vials Sheet_98
+  - first:
+      213: -7196643896014589761
+    second: Vials Sheet_99
+  - first:
+      213: -784797312922756693
+    second: Vials Sheet_100
+  - first:
+      213: -5024942533532022842
+    second: Vials Sheet_101
+  - first:
+      213: 246297391926461408
+    second: Vials Sheet_102
+  - first:
+      213: 4363119929843711895
+    second: Vials Sheet_103
+  - first:
+      213: 6252442614370785434
+    second: Vials Sheet_104
+  - first:
+      213: -8306416904983936516
+    second: Vials Sheet_105
+  - first:
+      213: -6020764598847580343
+    second: Vials Sheet_106
+  - first:
+      213: 5316040394489332676
+    second: Vials Sheet_107
+  - first:
+      213: 8749316806704920611
+    second: Vials Sheet_108
+  - first:
+      213: 2941825165774589737
+    second: Vials Sheet_109
+  - first:
+      213: -3394773578758888103
+    second: Vials Sheet_110
+  - first:
+      213: -6740398054078140231
+    second: Vials Sheet_111
+  - first:
+      213: 1755748854567839630
+    second: Vials Sheet_112
+  - first:
+      213: -2447213659171443608
+    second: Vials Sheet_113
+  - first:
+      213: 4446653710000684603
+    second: Vials Sheet_114
+  - first:
+      213: 5376471458320084546
+    second: Vials Sheet_115
+  - first:
+      213: -8862014730869957340
+    second: Vials Sheet_116
+  - first:
+      213: 8439409890512446783
+    second: Vials Sheet_117
+  - first:
+      213: -614671877379380552
+    second: Vials Sheet_118
+  - first:
+      213: 478238113254935050
+    second: Vials Sheet_119
+  - first:
+      213: -4308733936559730257
+    second: Vials Sheet_120
+  - first:
+      213: 4365121357834075916
+    second: Vials Sheet_121
+  - first:
+      213: 6584849200527152280
+    second: Vials Sheet_122
+  - first:
+      213: -100779433941276285
+    second: Vials Sheet_123
+  - first:
+      213: 5799405786665252023
+    second: Vials Sheet_124
+  - first:
+      213: -5529788558810397246
+    second: Vials Sheet_125
+  - first:
+      213: 6041066617223076702
+    second: Vials Sheet_126
+  - first:
+      213: 8036920146340179510
+    second: Vials Sheet_127
+  - first:
+      213: -8199115410913491226
+    second: Vials Sheet_128
+  - first:
+      213: -7033998646098900723
+    second: Vials Sheet_129
+  - first:
+      213: -2530250688461731768
+    second: Vials Sheet_130
+  - first:
+      213: 7110198976642154070
+    second: Vials Sheet_131
+  - first:
+      213: -6573344944707513274
+    second: Vials Sheet_132
+  - first:
+      213: 9173561443730161859
+    second: Vials Sheet_133
+  - first:
+      213: -4126299794629094902
+    second: Vials Sheet_134
+  - first:
+      213: 5576345694699349881
+    second: Vials Sheet_135
+  - first:
+      213: -6253006139866422742
+    second: Vials Sheet_136
+  - first:
+      213: 7596183239900030192
+    second: Vials Sheet_137
+  - first:
+      213: 8567647873907596047
+    second: Vials Sheet_138
+  - first:
+      213: -7259949420851904124
+    second: Vials Sheet_139
+  - first:
+      213: 5524734284855567491
+    second: Vials Sheet_140
+  - first:
+      213: -1113041074519976530
+    second: Vials Sheet_141
+  - first:
+      213: -1200881022961353341
+    second: Vials Sheet_142
+  - first:
+      213: -3639052593161237721
+    second: Vials Sheet_143
+  - first:
+      213: -1843685552141916927
+    second: Vials Sheet_144
+  - first:
+      213: -1800956874909262046
+    second: Vials Sheet_145
+  - first:
+      213: -8736290170392399281
+    second: Vials Sheet_146
+  - first:
+      213: -1810535417600481697
+    second: Vials Sheet_147
+  - first:
+      213: 1040410410238033941
+    second: Vials Sheet_148
+  - first:
+      213: 1423159929503650942
+    second: Vials Sheet_149
+  - first:
+      213: 1331166370945498608
+    second: Vials Sheet_150
+  - first:
+      213: -8306374451768755408
+    second: Vials Sheet_151
+  - first:
+      213: -3179418312532060933
+    second: Vials Sheet_152
+  - first:
+      213: 1631453588835003723
+    second: Vials Sheet_153
+  - first:
+      213: -7174381808951524354
+    second: Vials Sheet_154
+  - first:
+      213: -4033893590813788556
+    second: Vials Sheet_155
+  - first:
+      213: -5531290018277805977
+    second: Vials Sheet_156
+  - first:
+      213: -2332379766339043
+    second: Vials Sheet_157
+  - first:
+      213: -2028879297106230757
+    second: Vials Sheet_158
+  - first:
+      213: -7383903065235077931
+    second: Vials Sheet_159
+  - first:
+      213: -3101501771137655836
+    second: Vials Sheet_160
+  - first:
+      213: -348700872954588015
+    second: Vials Sheet_161
+  - first:
+      213: 655853927794364994
+    second: Vials Sheet_162
+  - first:
+      213: -8041331621892341341
+    second: Vials Sheet_163
+  - first:
+      213: -2758530903122140088
+    second: Vials Sheet_164
+  - first:
+      213: -5247444390031731022
+    second: Vials Sheet_165
+  - first:
+      213: 8691755614336842624
+    second: Vials Sheet_166
+  - first:
+      213: 3014410416984973534
+    second: Vials Sheet_167
+  - first:
+      213: -1555892768193709357
+    second: Vials Sheet_168
+  - first:
+      213: 4259366397406811321
+    second: Vials Sheet_169
+  - first:
+      213: -8305005436816258373
+    second: Vials Sheet_170
+  - first:
+      213: -211072084733877138
+    second: Vials Sheet_171
+  - first:
+      213: -2201124554345149915
+    second: Vials Sheet_172
+  - first:
+      213: -5443180953574235261
+    second: Vials Sheet_173
+  - first:
+      213: 6682533541455111531
+    second: Vials Sheet_174
+  - first:
+      213: 8685869819563088947
+    second: Vials Sheet_175
+  - first:
+      213: -2702758142160564424
+    second: Vials Sheet_176
+  - first:
+      213: 6711273945446460054
+    second: Vials Sheet_177
+  - first:
+      213: 9016283056274517151
+    second: Vials Sheet_178
+  - first:
+      213: -6240524383917025569
+    second: Vials Sheet_179
+  - first:
+      213: -5787950125959017553
+    second: Vials Sheet_180
+  - first:
+      213: -3180433455275803315
+    second: Vials Sheet_181
+  - first:
+      213: -2319281357954184699
+    second: Vials Sheet_182
+  - first:
+      213: 4329817227907007873
+    second: Vials Sheet_183
+  - first:
+      213: 660510540446451732
+    second: Vials Sheet_184
+  - first:
+      213: -8528225132253396537
+    second: Vials Sheet_185
+  - first:
+      213: 4536133496477650553
+    second: Vials Sheet_186
+  - first:
+      213: -729799703294289450
+    second: Vials Sheet_187
+  - first:
+      213: 5071467298753125742
+    second: Vials Sheet_188
+  - first:
+      213: 5273565140211802374
+    second: Vials Sheet_189
+  - first:
+      213: -995277290507156106
+    second: Vials Sheet_190
+  - first:
+      213: -4891500903689260138
+    second: Vials Sheet_191
+  - first:
+      213: -6934724074938268442
+    second: Vials Sheet_192
+  - first:
+      213: 5928804929739320836
+    second: Vials Sheet_193
+  - first:
+      213: 1411982301410162494
+    second: Vials Sheet_194
+  - first:
+      213: -5687180033294886493
+    second: Vials Sheet_195
+  - first:
+      213: 5049284209207267828
+    second: Vials Sheet_196
+  - first:
+      213: 7483993795530185489
+    second: Vials Sheet_197
+  - first:
+      213: 1211908192277342051
+    second: Vials Sheet_198
+  - first:
+      213: 1436705816204637111
+    second: Vials Sheet_199
+  - first:
+      213: -9158975403865694296
+    second: Vials Sheet_200
+  - first:
+      213: -7804663174649668716
+    second: Vials Sheet_201
+  - first:
+      213: -6082153255547757674
+    second: Vials Sheet_202
+  - first:
+      213: 8087581462321140781
+    second: Vials Sheet_203
+  - first:
+      213: -387786715611723449
+    second: Vials Sheet_204
+  - first:
+      213: -5976437398653313174
+    second: Vials Sheet_205
+  - first:
+      213: -8421705577036708907
+    second: Vials Sheet_206
+  - first:
+      213: 4914628393494461589
+    second: Vials Sheet_207
+  - first:
+      213: -6009679712777335798
+    second: Vials Sheet_208
+  - first:
+      213: 3383054702897423365
+    second: Vials Sheet_209
+  - first:
+      213: 3355460864463030590
+    second: Vials Sheet_210
+  - first:
+      213: -3019135896570728400
+    second: Vials Sheet_211
+  - first:
+      213: -6474674038692097434
+    second: Vials Sheet_212
+  - first:
+      213: 8569799975707530926
+    second: Vials Sheet_213
+  - first:
+      213: -4761243182132520921
+    second: Vials Sheet_214
+  - first:
+      213: -6796196234322417573
+    second: Vials Sheet_215
+  - first:
+      213: 2209816747363057519
+    second: Vials Sheet_216
+  - first:
+      213: 7399129925232768157
+    second: Vials Sheet_217
+  - first:
+      213: 7790276266714020731
+    second: Vials Sheet_218
+  - first:
+      213: 4034394359540902689
+    second: Vials Sheet_219
+  - first:
+      213: 2782088296987640315
+    second: Vials Sheet_220
+  - first:
+      213: 7168904612736963543
+    second: Vials Sheet_221
+  - first:
+      213: -264856708586262972
+    second: Vials Sheet_222
+  - first:
+      213: -1768617248124905828
+    second: Vials Sheet_223
+  - first:
+      213: 4904675549761892181
+    second: Vials Sheet_224
+  - first:
+      213: 8345965195146116654
+    second: Vials Sheet_225
+  - first:
+      213: -5824539708736516352
+    second: Vials Sheet_226
+  - first:
+      213: -499515326638831675
+    second: Vials Sheet_227
+  - first:
+      213: -5394602971894705022
+    second: Vials Sheet_228
+  - first:
+      213: -6233336542727133379
+    second: Vials Sheet_229
+  - first:
+      213: 6640156989144015055
+    second: Vials Sheet_230
+  - first:
+      213: -2057332963121215984
+    second: Vials Sheet_231
+  - first:
+      213: 1631763231298289054
+    second: Vials Sheet_232
+  - first:
+      213: -6628541830941425292
+    second: Vials Sheet_233
+  - first:
+      213: 8896671740059651247
+    second: Vials Sheet_234
+  - first:
+      213: -3403926755642931392
+    second: Vials Sheet_235
+  - first:
+      213: -6955554617206517055
+    second: Vials Sheet_236
+  - first:
+      213: 8144344772793812801
+    second: Vials Sheet_237
+  - first:
+      213: -7290189087090382610
+    second: Vials Sheet_238
+  - first:
+      213: -8215807917015230389
+    second: Vials Sheet_239
+  - first:
+      213: -8582716914351201500
+    second: Vials Sheet_240
+  - first:
+      213: -1663837064611115188
+    second: Vials Sheet_241
+  - first:
+      213: 2026923749031339532
+    second: Vials Sheet_242
+  - first:
+      213: -8094429882785558362
+    second: Vials Sheet_243
+  - first:
+      213: -4503428187345404388
+    second: Vials Sheet_244
+  - first:
+      213: -6627382297486023246
+    second: Vials Sheet_245
+  - first:
+      213: -4309464396456164601
+    second: Vials Sheet_246
+  - first:
+      213: 1476893425825981011
+    second: Vials Sheet_247
+  - first:
+      213: 3085071136197422678
+    second: Vials Sheet_248
+  - first:
+      213: 365629478122112992
+    second: Vials Sheet_249
+  - first:
+      213: -6575247571040478488
+    second: Vials Sheet_250
+  - first:
+      213: -2982664684251797516
+    second: Vials Sheet_251
+  - first:
+      213: -6717920000868405962
+    second: Vials Sheet_252
+  - first:
+      213: -829880459994444678
+    second: Vials Sheet_253
+  - first:
+      213: -1665460648248882650
+    second: Vials Sheet_254
+  - first:
+      213: 9017040573534342508
+    second: Vials Sheet_255
+  - first:
+      213: 4729709654966622200
+    second: Vials Sheet_256
+  - first:
+      213: 7882174553574661649
+    second: Vials Sheet_257
+  - first:
+      213: -5483698054381813700
+    second: Vials Sheet_258
+  - first:
+      213: -3955315039869446360
+    second: Vials Sheet_259
+  - first:
+      213: 2932490556188430886
+    second: Vials Sheet_260
+  - first:
+      213: 7872554707331369471
+    second: Vials Sheet_261
+  - first:
+      213: 3761169201508834798
+    second: Vials Sheet_262
+  - first:
+      213: 4954173109969204889
+    second: Vials Sheet_263
+  - first:
+      213: 4083362702861786460
+    second: Vials Sheet_264
+  - first:
+      213: -2353106025936447844
+    second: Vials Sheet_265
+  - first:
+      213: -6239238796592640440
+    second: Vials Sheet_266
+  - first:
+      213: -8393575823003921417
+    second: Vials Sheet_267
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vials Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 154
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c704f1e31f8bd70800000000000000
+      internalID: 9059255899570338858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 154
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7c2a071e5d3b9a0800000000000000
+      internalID: -6218391496234448912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 154
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c84ec39d9c2e5a70800000000000000
+      internalID: 8817534175739267264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 154
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa91100b5958efd70800000000000000
+      internalID: 9078840776774982063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 154
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3b319019ab95820800000000000000
+      internalID: 2907560166529676274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 154
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801bf48bd1da393d0800000000000000
+      internalID: -3201024566972403448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51391af358b666510800000000000000
+      internalID: 1542038142463349525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 145
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e2061a3f4458c40800000000000000
+      internalID: 5513889131960217201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 145
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df95d5cdc312977d0800000000000000
+      internalID: -2920266338094196227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 145
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b91e143a8829e70800000000000000
+      internalID: 9120502430145026932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 145
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2067ea8fb5e66d0c0800000000000000
+      internalID: -4551329032118045182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 145
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415b79d2d0f52bb80800000000000000
+      internalID: -8380531446378941164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7988f59ec4bdb0ea0800000000000000
+      internalID: -5905385362986923881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8ee1e3c3862a1d0800000000000000
+      internalID: -3340993365605947173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000edd347f386cbc0800000000000000
+      internalID: -3763175340602695680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c0ca94bf8d55920800000000000000
+      internalID: 2978525302359854090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6e5552e050bf0e0800000000000000
+      internalID: -2235187231745251622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f095dc998b729b0800000000000000
+      internalID: -5104908681886494937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d301a6190d0813630800000000000000
+      internalID: 3905043985188130877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53477faac550a5b0800000000000000
+      internalID: -5359189227555306659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243b5394db99afa80800000000000000
+      internalID: -8432258314041707710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a719ed8fa53a4670800000000000000
+      internalID: 8523684272868497321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4063a2181ab4600800000000000000
+      internalID: 453633763611903211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a0e3ba8051c01e0800000000000000
+      internalID: -2230384588478346655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d66917a222de650800000000000000
+      internalID: 6263700222431882552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a551732c59b591b70800000000000000
+      internalID: 8870221639849547098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7267760f405108c00800000000000000
+      internalID: 900743036431463975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120b26b2d39378480800000000000000
+      internalID: -8897079603963449311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8264ec3066501c500800000000000000
+      internalID: 414618576403449384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cec1049cbde5ba30800000000000000
+      internalID: 4230548819177230022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6a8619740c734a0800000000000000
+      internalID: -6613606114155518213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e37a6c019dd5fe0800000000000000
+      internalID: -1198563259735130522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b2b750fc1a0b0b0800000000000000
+      internalID: -5714890016610899074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498c54834115720b0800000000000000
+      internalID: -5753540851657226092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5142c29a73b88970800000000000000
+      internalID: 8757446814451515738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f2137b4f1dd2b10800000000000000
+      internalID: 1958452261951713107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2f1ed7e1af0e5f0800000000000000
+      internalID: -729308130766097726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27b1b80e7b1d7f20800000000000000
+      internalID: 3421921519997138735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b2ce8bc83adcb60800000000000000
+      internalID: 7768044757077207947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1247f24ccc3a190800000000000000
+      internalID: -7952287374024367679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf4afacff8f419b0800000000000000
+      internalID: -5110185899652919368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef144f28740e3ac10800000000000000
+      internalID: 2063739652010164734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6d051c12bc32200800000000000000
+      internalID: 154190158098388701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e8b324d07448e00800000000000000
+      internalID: 1046039135728143876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b406c570389d129e0800000000000000
+      internalID: -1647796831853453237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc44d0be7a44ff60800000000000000
+      internalID: 8067154740520438970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7094ebc4b020890800000000000000
+      internalID: -7493414405753206803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc3814193bf8d0b0800000000000000
+      internalID: -5703532705495892798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa2b1d34d8e8d690800000000000000
+      internalID: -7577050374794958174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82be50534554a170800000000000000
+      internalID: 8188763770065957516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4193c41b7a1345c50800000000000000
+      internalID: 6652997145836927252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83edc347ee63db0a0800000000000000
+      internalID: -6864269859262505416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3ffe18906316bf0800000000000000
+      internalID: -332925482986114070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8879c14c536b6d280800000000000000
+      internalID: -9018820861723109496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847c978d8dcac8070800000000000000
+      internalID: 8110047076332193608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9661256eb084e57f0800000000000000
+      internalID: -621980482584570263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f72ad12dd1a80ee0800000000000000
+      internalID: -1294606921741228039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f151de43562004f60800000000000000
+      internalID: 8016409970422387999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b93fb9f52a388c20800000000000000
+      internalID: 3208878669279738292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7594a29d563f1560800000000000000
+      internalID: 7286602497628870015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71588715a5bf29340800000000000000
+      internalID: 4869230512473408791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0106a51e4ea460210800000000000000
+      internalID: 1298807889436762128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abeea615b874c5940800000000000000
+      internalID: 5286178726318108346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2432e395523d870b0800000000000000
+      internalID: -5730598368464460990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcd60772ecf938a0800000000000000
+      internalID: -6324746152075404072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45d388adf69ae5b0800000000000000
+      internalID: -5338288392096197298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f2b9e4b083fc490800000000000000
+      internalID: -7723893214702522582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83c823d050137fb0800000000000000
+      internalID: -4651356050817498227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e79e8e92bef7190800000000000000
+      internalID: -7962387050933944785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a0b03f6042c83a0800000000000000
+      internalID: -6661910136521815394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed8f710b279dee80800000000000000
+      internalID: -8147689939878834716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06d48d0ff61e8d60800000000000000
+      internalID: 7894272481526339083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9e6b5a259068e80800000000000000
+      internalID: -8176837822872360530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a997df449fd4890800000000000000
+      internalID: -7472042132032087532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbad8bcf075f64060800000000000000
+      internalID: 6937502141635943099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb35adbedcfc0cc0800000000000000
+      internalID: -3743339156657062937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3774c859ae2090300800000000000000
+      internalID: 218709263458781043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6924a812d549c10800000000000000
+      internalID: 2059373328250082993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e198493f7e922a940800000000000000
+      internalID: 5305849387196647710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05f82b4741d2d2d0800000000000000
+      internalID: -3255309476501588725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8927f62d6b9424dd0800000000000000
+      internalID: -2503357393301179752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cc0e94e3cac3c10800000000000000
+      internalID: 2034690515192040567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2557e7138071ff4a0800000000000000
+      internalID: -6557497208470604462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc36f0178f85383e0800000000000000
+      internalID: -2052699181078846515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3f02a2f2a45d920800000000000000
+      internalID: 3014397092025136110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091cee35e666510e0800000000000000
+      internalID: -2299819410662178416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbee242d21f02e5a0800000000000000
+      internalID: -6493611139203404101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cfdef5623f6cf30800000000000000
+      internalID: 4595627815921908793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b3be493a43e4b20800000000000000
+      internalID: 3120489468997090138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42452b1d13be54a80800000000000000
+      internalID: -8483115723878411228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f9c0f1783be8610800000000000000
+      internalID: 1625433908450205440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45571368b77d08370800000000000000
+      internalID: 8322889036913014100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686eda9dd26061f30800000000000000
+      internalID: 4545827667872441990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1f1c697b3b28c60800000000000000
+      internalID: 7819009504158282196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892166e6a4678ca80800000000000000
+      internalID: -8446371039081524584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6000e11c687d9de0800000000000000
+      internalID: -1324770309825363862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c800bdfe6ff75d380800000000000000
+      internalID: -8947104386138832756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13e5f3ab31dd36e0800000000000000
+      internalID: -1856097417322700002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b209b261a7429a9a0800000000000000
+      internalID: -6221401303459065813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0311b8182602c90800000000000000
+      internalID: -7196643896014589761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9de8e7007db15f0800000000000000
+      internalID: -784797312922756693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c782189361d34ab0800000000000000
+      internalID: -5024942533532022842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3c1ea4c260b6300800000000000000
+      internalID: 246297391926461408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ff2ca957aec8c30800000000000000
+      internalID: 4363119929843711895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98d5105e6325c650800000000000000
+      internalID: 6252442614370785434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1022e85dda9bc80800000000000000
+      internalID: -8306416904983936516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94751792f72f17ca0800000000000000
+      internalID: -6020764598847580343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 118
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c30a2db29e56c940800000000000000
+      internalID: 5316040394489332676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3287003a741db6970800000000000000
+      internalID: 8749316806704920611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f8c4dd66673d820800000000000000
+      internalID: 2941825165774589737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955e1399a6753e0d0800000000000000
+      internalID: -3394773578758888103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b030f59eab4572a0800000000000000
+      internalID: -6740398054078140231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87a057e74cad5810800000000000000
+      internalID: 1755748854567839630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c2a939420c90ed0800000000000000
+      internalID: -2447213659171443608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e73c76dffa5bd30800000000000000
+      internalID: 4446653710000684603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ee13a3e401d9a40800000000000000
+      internalID: 5376471458320084546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d97342e8cc30580800000000000000
+      internalID: -8862014730869957340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35a9edd49ece1570800000000000000
+      internalID: 8439409890512446783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba21672f2f3877f0800000000000000
+      internalID: -614671877379380552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a0d9ab70b03a600800000000000000
+      internalID: 478238113254935050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1dfa7305d4434c0800000000000000
+      internalID: -4308733936559730257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fbb2f5fb6049c30800000000000000
+      internalID: 4365121357834075916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8949fe8b575126b50800000000000000
+      internalID: 6584849200527152280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389e34783a5f99ef0800000000000000
+      internalID: -100779433941276285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4f68e16d0ab7050800000000000000
+      internalID: 5799405786665252023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c546159a9e3243b0800000000000000
+      internalID: -5529788558810397246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b5d08d41e26d350800000000000000
+      internalID: 6041066617223076702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e69caaa40e88f60800000000000000
+      internalID: 8036920146340179510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6021c79f3e63e80800000000000000
+      internalID: -8199115410913491226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0942b4cf77326e90800000000000000
+      internalID: -7033998646098900723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8480d89976eb2ecd0800000000000000
+      internalID: -2530250688461731768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ef91d3c408ca260800000000000000
+      internalID: 7110198976642154070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64459909999c6c4a0800000000000000
+      internalID: -6573344944707513274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c081ca87890f4f70800000000000000
+      internalID: 9173561443730161859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a029d58e2307cb6c0800000000000000
+      internalID: -4126299794629094902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97765555dd8236d40800000000000000
+      internalID: 5576345694699349881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22eceeab0cd839a0800000000000000
+      internalID: -6253006139866422742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 109
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4640f09601b6960800000000000000
+      internalID: 7596183239900030192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 110
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b94e4195666e670800000000000000
+      internalID: 8567647873907596047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 110
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481c1d2777a7f3b90800000000000000
+      internalID: -7259949420851904124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384ec3f8f8ccbac40800000000000000
+      internalID: 5524734284855567491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea551d43a0fad80f0800000000000000
+      internalID: -1113041074519976530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d71e8721d955fe0800000000000000
+      internalID: -1200881022961353341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b09a172fc7f7dc0800000000000000
+      internalID: -3639052593161237721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105af0332c9e966e0800000000000000
+      internalID: -1843685552141916927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f5c3f9347b107e0800000000000000
+      internalID: -1800956874909262046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42360b706672c680800000000000000
+      internalID: -8736290170392399281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56e8ac51afafd6e0800000000000000
+      internalID: -1810535417600481697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5104bda71c7407e00800000000000000
+      internalID: 1040410410238033941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7492a86a6410c310800000000000000
+      internalID: 1423159929503650942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdf625f2c0497210800000000000000
+      internalID: 1331166370945498608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b71f6f174d9bc80800000000000000
+      internalID: -8306374451768755408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf49729d3ef60e3d0800000000000000
+      internalID: -3179418312532060933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4deb0e256614a610800000000000000
+      internalID: 1631453588835003723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef38b6a91c97f6c90800000000000000
+      internalID: -7174381808951524354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 100
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476b1d1d62bb408c0800000000000000
+      internalID: -4033893590813788556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76033eec809ec33b0800000000000000
+      internalID: -5531290018277805977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1acb8486b6b7fff0800000000000000
+      internalID: -2332379766339043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12c6db5709f7d3e0800000000000000
+      internalID: -2028879297106230757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4ceb4a84b178990800000000000000
+      internalID: -7383903065235077931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb5815529045f4d0800000000000000
+      internalID: -3101501771137655836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1945cae476a292bf0800000000000000
+      internalID: -348700872954588015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2425ab62caf0a1900800000000000000
+      internalID: 655853927794364994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1cdf3ae73776090800000000000000
+      internalID: -8041331621892341341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844a77942cab7b9d0800000000000000
+      internalID: -2758530903122140088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6da8121255d27b0800000000000000
+      internalID: -5247444390031731022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08bfd0b2ea15f9870800000000000000
+      internalID: 8691755614336842624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed060af9d4655d920800000000000000
+      internalID: 3014410416984973534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daf63355cb586ae0800000000000000
+      internalID: -1555892768193709357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b41baddb2f4c1b30800000000000000
+      internalID: 4259366397406811321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba01e89e81bebc80800000000000000
+      internalID: -8305005436816258373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_171
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 91
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64af67ae0f121df0800000000000000
+      internalID: -211072084733877138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_172
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a0edf31e80471e0800000000000000
+      internalID: -2201124554345149915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_173
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383290e03cfe574b0800000000000000
+      internalID: -5443180953574235261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_174
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65a012b9d02dbc50800000000000000
+      internalID: 6682533541455111531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_175
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c1858c4986a8870800000000000000
+      internalID: 8685869819563088947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_176
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f89be1acfdd7ad0800000000000000
+      internalID: -2702758142160564424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_177
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69aaba4781c332d50800000000000000
+      internalID: 6711273945446460054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_178
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cad9b5ba5402d70800000000000000
+      internalID: 9016283056274517151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_179
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd65674f2243569a0800000000000000
+      internalID: -6240524383917025569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_180
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab098cb6021dafa0800000000000000
+      internalID: -5787950125959017553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_181
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d74828f94dcd3d0800000000000000
+      internalID: -3180433455275803315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_182
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a84fc94e140dfd0800000000000000
+      internalID: -2319281357954184699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_183
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18583c314d9961c30800000000000000
+      internalID: 4329817227907007873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_184
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41846b546da9a2900800000000000000
+      internalID: 660510540446451732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_185
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c14a7b3d68a5a980800000000000000
+      internalID: -8528225132253396537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_186
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e0d4fa16593fe30800000000000000
+      internalID: 4536133496477650553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_187
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 82
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d955f7590b3fd5f0800000000000000
+      internalID: -729799703294289450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_188
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d903073a8716640800000000000000
+      internalID: 5071467298753125742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_189
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6012532fd877f2940800000000000000
+      internalID: 5273565140211802374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_190
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675ce46d3901032f0800000000000000
+      internalID: -995277290507156106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_191
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693791928d5ed1cb0800000000000000
+      internalID: -4891500903689260138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_192
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e484f11239e2cf90800000000000000
+      internalID: -6934724074938268442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_193
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e62b3eba8574250800000000000000
+      internalID: 5928804929739320836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_194
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37f0b01c6e589310800000000000000
+      internalID: 1411982301410162494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_195
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a993c544e31311b0800000000000000
+      internalID: -5687180033294886493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_196
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1d9cb6c39a21640800000000000000
+      internalID: 5049284209207267828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_197
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bddc384bc7cd760800000000000000
+      internalID: 7483993795530185489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_198
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367a315741091d010800000000000000
+      internalID: 1211908192277342051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_199
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b37d9de35430f310800000000000000
+      internalID: 1436705816204637111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_200
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af9b028568c4e080800000000000000
+      internalID: -9158975403865694296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_201
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b1f6b813440b390800000000000000
+      internalID: -7804663174649668716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_202
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b1795b6d9d79ba0800000000000000
+      internalID: -6082153255547757674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_203
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 73
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d249fa97d7cdc3070800000000000000
+      internalID: 8087581462321140781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_204
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7490957690e4e9af0800000000000000
+      internalID: -387786715611723449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_205
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fd8e6b9dd6f0da0800000000000000
+      internalID: -5976437398653313174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_206
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d30dc5d567102b80800000000000000
+      internalID: -8421705577036708907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_207
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c394d2c74443440800000000000000
+      internalID: 4914628393494461589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_208
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c09025424599ca0800000000000000
+      internalID: -6009679712777335798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_209
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5046aedf35603fe20800000000000000
+      internalID: 3383054702897423365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_210
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e394b04d0edf09e20800000000000000
+      internalID: 3355460864463030590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_211
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 64
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030754ce5efd916d0800000000000000
+      internalID: -3019135896570728400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_212
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662505f14465526a0800000000000000
+      internalID: -6474674038692097434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_213
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 55
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6d2345cab0ee670800000000000000
+      internalID: 8569799975707530926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_214
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 55
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7289dbf4d8aacedb0800000000000000
+      internalID: -4761243182132520921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_215
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 55
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b586d5d588f0fa1a0800000000000000
+      internalID: -6796196234322417573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_216
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 55
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fb845af98daae10800000000000000
+      internalID: 2209816747363057519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_217
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 55
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d943678f67dfea660800000000000000
+      internalID: 7399129925232768157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_218
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 55
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b35ab6dfe9c1c60800000000000000
+      internalID: 7790276266714020731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_219
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 55
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b664c7b4c0df730800000000000000
+      internalID: 4034394359540902689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_220
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf148b3e096fb9620800000000000000
+      internalID: 2782088296987640315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_221
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d398d643c01d7360800000000000000
+      internalID: 7168904612736963543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_222
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e26501a3a035cf0800000000000000
+      internalID: -264856708586262972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_223
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96d2edbbfb9477e0800000000000000
+      internalID: -1768617248124905828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_224
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fe91a2d68e01440800000000000000
+      internalID: 4904675549761892181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_225
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e357c4023d2d370800000000000000
+      internalID: 8345965195146116654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_226
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f4a90aef31b2fa0800000000000000
+      internalID: -5824539708736516352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_227
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c744dbf47d5119f0800000000000000
+      internalID: -499515326638831675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_228
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28413fbcd258225b0800000000000000
+      internalID: -5394602971894705022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_229
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 37
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37a945a07dbe79a0800000000000000
+      internalID: -6233336542727133379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_230
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 37
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0a1ceb993962c50800000000000000
+      internalID: 6640156989144015055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_231
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 37
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016457cf192e273e0800000000000000
+      internalID: -2057332963121215984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_232
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 37
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9df31f630035a610800000000000000
+      internalID: 1631763231298289054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_233
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 37
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4714be30350b204a0800000000000000
+      internalID: -6628541830941425292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_234
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 37
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac038d9fc3577b70800000000000000
+      internalID: 8896671740059651247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_235
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 37
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047847886a2d2c0d0800000000000000
+      internalID: -3403926755642931392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_236
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2d3918de7e87f90800000000000000
+      internalID: -6955554617206517055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_237
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 28
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1474fa69b66860170800000000000000
+      internalID: 8144344772793812801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_238
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 28
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee86c8e76ab04da90800000000000000
+      internalID: -7290189087090382610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_239
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 28
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48177b8a369bfd80800000000000000
+      internalID: -8215807917015230389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_240
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 28
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4232c58807014e880800000000000000
+      internalID: -8582716914351201500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_241
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 28
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fc9bf410dd8e8e0800000000000000
+      internalID: -1663837064611115188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_242
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 28
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06e0df1964112c10800000000000000
+      internalID: 2026923749031339532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_243
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 28
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0924168eecaaf80800000000000000
+      internalID: -8094429882785558362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_244
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ebbcd7ceb9081c0800000000000000
+      internalID: -4503428187345404388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_245
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b522afe9eec604a0800000000000000
+      internalID: -6627382297486023246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_246
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7038905c6f4b134c0800000000000000
+      internalID: -4309464396456164601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_247
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352a771febafe7410800000000000000
+      internalID: 1476893425825981011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_248
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65eabdb5adf50da20800000000000000
+      internalID: 3085071136197422678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_249
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e741eab21af21500800000000000000
+      internalID: 365629478122112992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_250
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ead1e9db2700c4a0800000000000000
+      internalID: -6575247571040478488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_251
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7a113c5427b96d0800000000000000
+      internalID: -2982664684251797516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_252
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d2fbe2a5725c2a0800000000000000
+      internalID: -6717920000868405962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_253
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c4ef75e1cab74f0800000000000000
+      internalID: -829880459994444678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_254
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62acbb94d5813e8e0800000000000000
+      internalID: -1665460648248882650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_255
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d8cc690a6f22d70800000000000000
+      internalID: 9017040573534342508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_256
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f755034fdd43a140800000000000000
+      internalID: 4729709654966622200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_257
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ed073befb136d60800000000000000
+      internalID: 7882174553574661649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_258
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3042156cadf5e3b0800000000000000
+      internalID: -5483698054381813700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_259
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 10
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82752d96de5eb19c0800000000000000
+      internalID: -3955315039869446360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_260
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6229cc4bf9c42b820800000000000000
+      internalID: 2932490556188430886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_261
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9c055bbcee04d60800000000000000
+      internalID: 7872554707331369471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_262
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedd214167b523430800000000000000
+      internalID: 3761169201508834798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_263
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996b187f132c0c440800000000000000
+      internalID: 4954173109969204889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_264
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dd7216eb40ba830800000000000000
+      internalID: 4083362702861786460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_265
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c961a356986185fd0800000000000000
+      internalID: -2353106025936447844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_266
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e82441f55c969a0800000000000000
+      internalID: -6239238796592640440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vials Sheet_267
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f35b829247048b80800000000000000
+      internalID: -8393575823003921417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6981b548a4fb0e84286163dd0f856f1c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2.0,"y":10.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Vials Sheet_0: 9059255899570338858
+      Vials Sheet_1: -6218391496234448912
+      Vials Sheet_10: -4551329032118045182
+      Vials Sheet_100: -784797312922756693
+      Vials Sheet_101: -5024942533532022842
+      Vials Sheet_102: 246297391926461408
+      Vials Sheet_103: 4363119929843711895
+      Vials Sheet_104: 6252442614370785434
+      Vials Sheet_105: -8306416904983936516
+      Vials Sheet_106: -6020764598847580343
+      Vials Sheet_107: 5316040394489332676
+      Vials Sheet_108: 8749316806704920611
+      Vials Sheet_109: 2941825165774589737
+      Vials Sheet_11: -8380531446378941164
+      Vials Sheet_110: -3394773578758888103
+      Vials Sheet_111: -6740398054078140231
+      Vials Sheet_112: 1755748854567839630
+      Vials Sheet_113: -2447213659171443608
+      Vials Sheet_114: 4446653710000684603
+      Vials Sheet_115: 5376471458320084546
+      Vials Sheet_116: -8862014730869957340
+      Vials Sheet_117: 8439409890512446783
+      Vials Sheet_118: -614671877379380552
+      Vials Sheet_119: 478238113254935050
+      Vials Sheet_12: -5905385362986923881
+      Vials Sheet_120: -4308733936559730257
+      Vials Sheet_121: 4365121357834075916
+      Vials Sheet_122: 6584849200527152280
+      Vials Sheet_123: -100779433941276285
+      Vials Sheet_124: 5799405786665252023
+      Vials Sheet_125: -5529788558810397246
+      Vials Sheet_126: 6041066617223076702
+      Vials Sheet_127: 8036920146340179510
+      Vials Sheet_128: -8199115410913491226
+      Vials Sheet_129: -7033998646098900723
+      Vials Sheet_13: -3340993365605947173
+      Vials Sheet_130: -2530250688461731768
+      Vials Sheet_131: 7110198976642154070
+      Vials Sheet_132: -6573344944707513274
+      Vials Sheet_133: 9173561443730161859
+      Vials Sheet_134: -4126299794629094902
+      Vials Sheet_135: 5576345694699349881
+      Vials Sheet_136: -6253006139866422742
+      Vials Sheet_137: 7596183239900030192
+      Vials Sheet_138: 8567647873907596047
+      Vials Sheet_139: -7259949420851904124
+      Vials Sheet_14: -3763175340602695680
+      Vials Sheet_140: 5524734284855567491
+      Vials Sheet_141: -1113041074519976530
+      Vials Sheet_142: -1200881022961353341
+      Vials Sheet_143: -3639052593161237721
+      Vials Sheet_144: -1843685552141916927
+      Vials Sheet_145: -1800956874909262046
+      Vials Sheet_146: -8736290170392399281
+      Vials Sheet_147: -1810535417600481697
+      Vials Sheet_148: 1040410410238033941
+      Vials Sheet_149: 1423159929503650942
+      Vials Sheet_15: 2978525302359854090
+      Vials Sheet_150: 1331166370945498608
+      Vials Sheet_151: -8306374451768755408
+      Vials Sheet_152: -3179418312532060933
+      Vials Sheet_153: 1631453588835003723
+      Vials Sheet_154: -7174381808951524354
+      Vials Sheet_155: -4033893590813788556
+      Vials Sheet_156: -5531290018277805977
+      Vials Sheet_157: -2332379766339043
+      Vials Sheet_158: -2028879297106230757
+      Vials Sheet_159: -7383903065235077931
+      Vials Sheet_16: -2235187231745251622
+      Vials Sheet_160: -3101501771137655836
+      Vials Sheet_161: -348700872954588015
+      Vials Sheet_162: 655853927794364994
+      Vials Sheet_163: -8041331621892341341
+      Vials Sheet_164: -2758530903122140088
+      Vials Sheet_165: -5247444390031731022
+      Vials Sheet_166: 8691755614336842624
+      Vials Sheet_167: 3014410416984973534
+      Vials Sheet_168: -1555892768193709357
+      Vials Sheet_169: 4259366397406811321
+      Vials Sheet_17: -5104908681886494937
+      Vials Sheet_170: -8305005436816258373
+      Vials Sheet_171: -211072084733877138
+      Vials Sheet_172: -2201124554345149915
+      Vials Sheet_173: -5443180953574235261
+      Vials Sheet_174: 6682533541455111531
+      Vials Sheet_175: 8685869819563088947
+      Vials Sheet_176: -2702758142160564424
+      Vials Sheet_177: 6711273945446460054
+      Vials Sheet_178: 9016283056274517151
+      Vials Sheet_179: -6240524383917025569
+      Vials Sheet_18: 3905043985188130877
+      Vials Sheet_180: -5787950125959017553
+      Vials Sheet_181: -3180433455275803315
+      Vials Sheet_182: -2319281357954184699
+      Vials Sheet_183: 4329817227907007873
+      Vials Sheet_184: 660510540446451732
+      Vials Sheet_185: -8528225132253396537
+      Vials Sheet_186: 4536133496477650553
+      Vials Sheet_187: -729799703294289450
+      Vials Sheet_188: 5071467298753125742
+      Vials Sheet_189: 5273565140211802374
+      Vials Sheet_19: -5359189227555306659
+      Vials Sheet_190: -995277290507156106
+      Vials Sheet_191: -4891500903689260138
+      Vials Sheet_192: -6934724074938268442
+      Vials Sheet_193: 5928804929739320836
+      Vials Sheet_194: 1411982301410162494
+      Vials Sheet_195: -5687180033294886493
+      Vials Sheet_196: 5049284209207267828
+      Vials Sheet_197: 7483993795530185489
+      Vials Sheet_198: 1211908192277342051
+      Vials Sheet_199: 1436705816204637111
+      Vials Sheet_2: 8817534175739267264
+      Vials Sheet_20: -8432258314041707710
+      Vials Sheet_200: -9158975403865694296
+      Vials Sheet_201: -7804663174649668716
+      Vials Sheet_202: -6082153255547757674
+      Vials Sheet_203: 8087581462321140781
+      Vials Sheet_204: -387786715611723449
+      Vials Sheet_205: -5976437398653313174
+      Vials Sheet_206: -8421705577036708907
+      Vials Sheet_207: 4914628393494461589
+      Vials Sheet_208: -6009679712777335798
+      Vials Sheet_209: 3383054702897423365
+      Vials Sheet_21: 8523684272868497321
+      Vials Sheet_210: 3355460864463030590
+      Vials Sheet_211: -3019135896570728400
+      Vials Sheet_212: -6474674038692097434
+      Vials Sheet_213: 8569799975707530926
+      Vials Sheet_214: -4761243182132520921
+      Vials Sheet_215: -6796196234322417573
+      Vials Sheet_216: 2209816747363057519
+      Vials Sheet_217: 7399129925232768157
+      Vials Sheet_218: 7790276266714020731
+      Vials Sheet_219: 4034394359540902689
+      Vials Sheet_22: 453633763611903211
+      Vials Sheet_220: 2782088296987640315
+      Vials Sheet_221: 7168904612736963543
+      Vials Sheet_222: -264856708586262972
+      Vials Sheet_223: -1768617248124905828
+      Vials Sheet_224: 4904675549761892181
+      Vials Sheet_225: 8345965195146116654
+      Vials Sheet_226: -5824539708736516352
+      Vials Sheet_227: -499515326638831675
+      Vials Sheet_228: -5394602971894705022
+      Vials Sheet_229: -6233336542727133379
+      Vials Sheet_23: -2230384588478346655
+      Vials Sheet_230: 6640156989144015055
+      Vials Sheet_231: -2057332963121215984
+      Vials Sheet_232: 1631763231298289054
+      Vials Sheet_233: -6628541830941425292
+      Vials Sheet_234: 8896671740059651247
+      Vials Sheet_235: -3403926755642931392
+      Vials Sheet_236: -6955554617206517055
+      Vials Sheet_237: 8144344772793812801
+      Vials Sheet_238: -7290189087090382610
+      Vials Sheet_239: -8215807917015230389
+      Vials Sheet_24: 6263700222431882552
+      Vials Sheet_240: -8582716914351201500
+      Vials Sheet_241: -1663837064611115188
+      Vials Sheet_242: 2026923749031339532
+      Vials Sheet_243: -8094429882785558362
+      Vials Sheet_244: -4503428187345404388
+      Vials Sheet_245: -6627382297486023246
+      Vials Sheet_246: -4309464396456164601
+      Vials Sheet_247: 1476893425825981011
+      Vials Sheet_248: 3085071136197422678
+      Vials Sheet_249: 365629478122112992
+      Vials Sheet_25: 8870221639849547098
+      Vials Sheet_250: -6575247571040478488
+      Vials Sheet_251: -2982664684251797516
+      Vials Sheet_252: -6717920000868405962
+      Vials Sheet_253: -829880459994444678
+      Vials Sheet_254: -1665460648248882650
+      Vials Sheet_255: 9017040573534342508
+      Vials Sheet_256: 4729709654966622200
+      Vials Sheet_257: 7882174553574661649
+      Vials Sheet_258: -5483698054381813700
+      Vials Sheet_259: -3955315039869446360
+      Vials Sheet_26: 900743036431463975
+      Vials Sheet_260: 2932490556188430886
+      Vials Sheet_261: 7872554707331369471
+      Vials Sheet_262: 3761169201508834798
+      Vials Sheet_263: 4954173109969204889
+      Vials Sheet_264: 4083362702861786460
+      Vials Sheet_265: -2353106025936447844
+      Vials Sheet_266: -6239238796592640440
+      Vials Sheet_267: -8393575823003921417
+      Vials Sheet_27: -8897079603963449311
+      Vials Sheet_28: 414618576403449384
+      Vials Sheet_29: 4230548819177230022
+      Vials Sheet_3: 9078840776774982063
+      Vials Sheet_30: -6613606114155518213
+      Vials Sheet_31: -1198563259735130522
+      Vials Sheet_32: -5714890016610899074
+      Vials Sheet_33: -5753540851657226092
+      Vials Sheet_34: 8757446814451515738
+      Vials Sheet_35: 1958452261951713107
+      Vials Sheet_36: -729308130766097726
+      Vials Sheet_37: 3421921519997138735
+      Vials Sheet_38: 7768044757077207947
+      Vials Sheet_39: -7952287374024367679
+      Vials Sheet_4: 2907560166529676274
+      Vials Sheet_40: -5110185899652919368
+      Vials Sheet_41: 2063739652010164734
+      Vials Sheet_42: 154190158098388701
+      Vials Sheet_43: 1046039135728143876
+      Vials Sheet_44: -1647796831853453237
+      Vials Sheet_45: 8067154740520438970
+      Vials Sheet_46: -7493414405753206803
+      Vials Sheet_47: -5703532705495892798
+      Vials Sheet_48: -7577050374794958174
+      Vials Sheet_49: 8188763770065957516
+      Vials Sheet_5: -3201024566972403448
+      Vials Sheet_50: 6652997145836927252
+      Vials Sheet_51: -6864269859262505416
+      Vials Sheet_52: -332925482986114070
+      Vials Sheet_53: -9018820861723109496
+      Vials Sheet_54: 8110047076332193608
+      Vials Sheet_55: -621980482584570263
+      Vials Sheet_56: -1294606921741228039
+      Vials Sheet_57: 8016409970422387999
+      Vials Sheet_58: 3208878669279738292
+      Vials Sheet_59: 7286602497628870015
+      Vials Sheet_6: 1542038142463349525
+      Vials Sheet_60: 4869230512473408791
+      Vials Sheet_61: 1298807889436762128
+      Vials Sheet_62: 5286178726318108346
+      Vials Sheet_63: -5730598368464460990
+      Vials Sheet_64: -6324746152075404072
+      Vials Sheet_65: -5338288392096197298
+      Vials Sheet_66: -7723893214702522582
+      Vials Sheet_67: -4651356050817498227
+      Vials Sheet_68: -7962387050933944785
+      Vials Sheet_69: -6661910136521815394
+      Vials Sheet_7: 5513889131960217201
+      Vials Sheet_70: -8147689939878834716
+      Vials Sheet_71: 7894272481526339083
+      Vials Sheet_72: -8176837822872360530
+      Vials Sheet_73: -7472042132032087532
+      Vials Sheet_74: 6937502141635943099
+      Vials Sheet_75: -3743339156657062937
+      Vials Sheet_76: 218709263458781043
+      Vials Sheet_77: 2059373328250082993
+      Vials Sheet_78: 5305849387196647710
+      Vials Sheet_79: -3255309476501588725
+      Vials Sheet_8: -2920266338094196227
+      Vials Sheet_80: -2503357393301179752
+      Vials Sheet_81: 2034690515192040567
+      Vials Sheet_82: -6557497208470604462
+      Vials Sheet_83: -2052699181078846515
+      Vials Sheet_84: 3014397092025136110
+      Vials Sheet_85: -2299819410662178416
+      Vials Sheet_86: -6493611139203404101
+      Vials Sheet_87: 4595627815921908793
+      Vials Sheet_88: 3120489468997090138
+      Vials Sheet_89: -8483115723878411228
+      Vials Sheet_9: 9120502430145026932
+      Vials Sheet_90: 1625433908450205440
+      Vials Sheet_91: 8322889036913014100
+      Vials Sheet_92: 4545827667872441990
+      Vials Sheet_93: 7819009504158282196
+      Vials Sheet_94: -8446371039081524584
+      Vials Sheet_95: -1324770309825363862
+      Vials Sheet_96: -8947104386138832756
+      Vials Sheet_97: -1856097417322700002
+      Vials Sheet_98: -6221401303459065813
+      Vials Sheet_99: -7196643896014589761
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

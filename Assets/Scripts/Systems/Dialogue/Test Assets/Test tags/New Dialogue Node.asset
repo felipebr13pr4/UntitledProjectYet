@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e430663076cbe0f4d9294dd429f5e57b, type: 3}
+  m_Name: New Dialogue Node
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  m_next: {fileID: 11400000, guid: fd8aca4c592e15b4c80b7fa97cc949e4, type: 2}
+  m_lines:
+  - m_text: '<sound=0> Oh! The menu opened! Wow! And now: <speed=0,5> really slow
+      <speed=0,01> and now its really really really really really really really really
+      really really really really really really really really really really really
+      really fast!'
+    m_expression:
+      m_assignedExpression: 0
+      m_hasFullBody: 0
+    m_voice:
+      m_clip: {fileID: 8300000, guid: cf4e6e62e72d1fe4e96f6123b7ac88fa, type: 3}
+      m_pitch: 1
+      m_isPitchRandom: 1
+      m_min: 1
+      m_max: 1.5
+    m_sounds:
+    - m_clip: {fileID: 8300000, guid: 5b0539c61ba8b5e49bc9cc08ecb0cf4c, type: 3}
+      m_pitch: 1
+      m_isPitchRandom: 0
+      m_min: 0
+      m_max: 0
+  m_defaultVoice: 0
